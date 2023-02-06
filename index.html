@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang ="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,18 +11,18 @@
 <body>
     <div id="navbar">
         <nav>
-            <ul lang="en">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Activities</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#" onclick="changelanguage('hi')">हिन्दी में देखिये</a></li>
+            <ul>
+                <li><a class="translate" href="#" aria-label="होम">Home</a></li>
+                <li><a class="translate" href="#" aria-label="प्रयास">Activities</a></li>
+                <li><a class="translate" href="#" aria-label="सम्पर्क करें">Contact Us</a></li>
+                <li><a class="translate" href="#" aria-label="Read in English" onclick="changelanguage()">हिन्दी में देखिये</a></li>
             </ul>
-            <ul lang="hi">
+            <!-- <ul lang="hi">
                 <li><a href="#">होम</a></li>
                 <li><a href="#">प्रयास </a></li>
                 <li><a href="#">सम्पर्क करें </a></li>
                 <li><a href="#" onclick="changelanguage('en')">Read in English</a></li>
-            </ul>
+            </ul> -->
         </nav>
     </div>
 </body>
