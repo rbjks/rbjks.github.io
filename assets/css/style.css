@@ -5,20 +5,22 @@
   }
   #navbar{
     width:100%;
-    height:100vh;
-    background-image: #ffe;
-    background-size: cover;
+    position: absolute;
   }
   nav{
     width: 100%;
     height: 50px;
-    background-color: #0005;
+    background-color: transparent;
+    /* background-color: #0005; */
     line-height: 50px;
   }
   nav ul{
     float: right;
     margin-right: 30px; 
     display: flex;
+  }
+  nav ul img{
+    text-align: left;
   }
   nav ul li{
     list-style-type: none;
@@ -32,4 +34,10 @@
     text-decoration: none;
     color: #fff;
     padding: 30px;
+  }
+  .intro-image{
+    background-color: aqua;
+    border-radius: 0 0 140px 0;
+    height: 350px;
+    width: 100vw;
   }

@@ -16,14 +16,16 @@ function changelanguage(){
     prefLanguage = prefLanguage == 'en'? 'hi': 'en';
     htmlParent.lang = prefLanguage;
     translateElements.forEach(el => swap(el));
-    // prefLanguage = lang;
-    // if(prefLanguage == 'en'){
-    //     makeEnglish();
-    // }
-    // else{
-    //     makeHindi();
-    // }
-    // console.log('current pref ',lang)
+   /*
+    prefLanguage = lang;
+    if(prefLanguage == 'en'){
+        makeEnglish();
+    }
+    else{
+        makeHindi();
+    }
+    console.log('current pref ',lang)
+    */
 }
 
 function makeEnglish() {
