@@ -32,12 +32,27 @@
   }
   nav ul li a{
     text-decoration: none;
-    color: #fff;
+    /* color: #fff; */
     padding: 30px;
   }
+  .introduction{
+    background-color: #000;
+    /* height: 85vh; */
+    display: flex;
+    padding: 7.5vh 10vw;
+    justify-content: space-between;
+  }
   .intro-image{
-    background-color: aqua;
-    border-radius: 0 0 140px 0;
-    height: 350px;
-    width: 100vw;
+    height: 84vh;
+    width: 30vw;
+    border: 1px solid white;
+    border-radius: 4% 4% 25% 4%;
+  }
+  .intro-text{
+    color: #fff;
+    width: 40vw;
+    margin-top: 20vh;
+  }
+  .intro-text .title{
+    margin-bottom: 30px;
   }

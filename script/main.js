@@ -41,7 +41,7 @@ function makeHindi() {
 }
 
 function swap(el){
-    var i = el.ariaLabel;
+    var i = el.ariaLabel || el.innerText;
     el.ariaLabel = el.innerText;
     el.innerText = i;
     
