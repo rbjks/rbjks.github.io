@@ -8,6 +8,8 @@ This website has to be duolingual with both English and Hindi as the required la
 
 Preferred colors for the website 
 
-Emerald - #22B9A8
-Deep Saffron - #ff9933
-Desert Sand - #edc9af
+<span style="color:#22B9A8">Emerald - #22B9A8</span>
+
+<span style="color:#ff9933">Deep Saffron - #ff9933</span>
+
+<span style="color:#edc9af">Desert Sand - #edc9af</span>
