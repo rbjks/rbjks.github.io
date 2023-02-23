@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBJKS::Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="navbar" id="navbar">
+        <nav>
+            <img class="logo" alt="RBJKS LOGO" src="https://assets.msn.com/weathermapdata/1/static/svg/72/v6/card/Haze.svg" />
+            <ul>
+                <!-- <li></li>  -->
+                <li><a class="translate" href="/" aria-label="होम">Home</a></li>
+                <li><a class="translate" href="/activities.html" target="_blank" aria-label="प्रयास">Activities</a></li>
+                <li><a class="translate" href="/contact.html" target="_blank" aria-label="सम्पर्क करें">Contact Us</a></li>
+                <li><a class="translate" href="#" aria-label="Read in English" onclick="changelanguage()">हिन्दी में देखिये</a></li>
+            </ul>
+            <!-- <ul lang="hi">
+                <li><a href="#">होम</a></li>
+                <li><a href="#">प्रयास </a></li>
+                <li><a href="#">सम्पर्क करें </a></li>
+                <li><a href="#" onclick="changelanguage('en')">Read in English</a></li>
+            </ul> -->
+        </nav>
+    </div>
+<div class="body">
+
+    <div id="form">
+    <h3 class="h3">Contact us</h3>
+
+    <form id="form-id" class="form-class" method="post" action="contact-form-process.php">
+        
+        <div class="form-group">
+            <label for="Name" class="label">Your name</label>
+            <div class="input-group">
+                <input type="text" id="Name" name="Name" class="form-control" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Email" class="label">Your email address</label>
+            <div class="input-group">
+                <input type="email" id="Email" name="Email" class="form-control" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Message" class="label">Your message</label>
+            <div class="input-group">
+                <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" id="button" class="btn btn-primary btn-lg btn-block">Send Message</button>
+        </div>
+
+    </form>
+    </div>
+
+</div>
+
+</body>
+</html>
