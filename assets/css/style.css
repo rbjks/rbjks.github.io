@@ -211,3 +211,42 @@
 .activities1{
   margin-top: 7%;
 }
+
+/* Footer */
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #22B9A8;
+  padding: 1rem 0;
+  font-weight: 600;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  gap: 1rem;
+}
+
+.about p{
+  opacity: 0.7;
+}
+
+.about--address{
+  width: 50%;
+}
+
+.social-media-icons{
+  font-size: 1.5rem;
+}
+.icons{
+  display: flex;
+  gap: 1rem;
+}
+
+.icons img{
+  height: 1.5rem;
+  width: 1.5rem;
+}
