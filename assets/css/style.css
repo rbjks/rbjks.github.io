@@ -2,39 +2,101 @@
     margin:0;
     padding:0;
     font-family:verdana;
+    background-color:#EDC9AF ;
   }
+
   #navbar{
-    width:100%;
-    position: absolute;
-  }
-  nav{
+    background-color: #EDC9AF;
+    height: 80px;
     width: 100%;
-    height: 50px;
-    background-color: transparent;
-    /* background-color: #0005; */
-    line-height: 50px;
   }
+
+  .logo{
+    line-height: 80px;
+    padding: 0 50px;
+  }
+
   nav ul{
     float: right;
-    margin-right: 30px; 
-    display: flex;
+    margin-right: 20px;
   }
-  nav ul img{
-    text-align: left;
-  }
+
   nav ul li{
-    list-style-type: none;
     display: inline-block;
-    transition: 0.7s all;
+    line-height: 80px;
+    margin: 0 5px;
   }
-  nav ul li:hover{
-    background-color:#088;
-  }
+
   nav ul li a{
+    font-size: 17px;
     text-decoration: none;
-    /* color: #fff; */
-    padding: 30px;
+    padding: 7px 13px;
+    border-radius: 3;
   }
+
+  a.active , a:hover{
+    
+    transition: 0.5s;
+  }
+
+  .checkbtn{
+    font-size:30px;
+    color: rgb(0, 0, 0);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check{
+    display: none;
+  }
+
+  @media (max-width: 952px){
+    nav ul li a {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 998px){
+   .checkbtn{
+    display: block;
+   }
+
+   ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #EDC9AF;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    z-index: 10900;
+   }
+
+   nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+   }
+
+   nav ul li a {
+    font-size: 20px;
+   }
+
+   a:hover , a.active{
+    background-color: none;
+    color: black;
+   }
+
+   #check:checked ~ ul{
+    left: 0;
+   }
+  }
+
   .introduction{
     background-color: #EDC9AF;
     /* height: 85vh; */
@@ -66,7 +128,7 @@
   }
   .container {
     width: 85%;
-    background: #fff;
+    background: #EDC9AF;
     border-radius: 6px;
     padding: 20px 60px 30px 40px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
