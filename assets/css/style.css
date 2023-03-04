@@ -107,10 +107,13 @@ nav ul li a:active {
 }
 
 .intro-image {
-  height: 84vh;
-  width: 30vw;
+  /* height: 84vh;
+  width: 30vw; */
   border: 1px solid white;
   border-radius: 4% 4% 25% 4%;
+  max-width: 80%;
+  height: auto;
+  position: relative;
 }
 
 .intro-text {
@@ -263,12 +266,20 @@ nav ul li a:active {
     width: 75%;
     margin-left: 55px;
   }
+
+   .intro-text {
+   margin-top: 5px;
+}
 }
 
 @media (max-width: 820px) {
   .container {
     margin: 40px 0;
     height: 100%;
+  }
+
+  .intro-text {
+    margin-top: 140px;
   }
 
   .container .content {
@@ -291,6 +302,11 @@ nav ul li a:active {
     width: 100%;
     margin-left: 0;
   }
+
+   .intro-image {
+     margin-top: 195px;
+     position: relative;
+}
 }
 
 .activities {
