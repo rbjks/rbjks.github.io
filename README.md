@@ -1,17 +1,16 @@
 # rbjks.github.io
 
-Access [this website](https://rbjks.github.io/index.html) which is now hosted on GitHub Pages.
+Access [this site](https://rbjks.github.io/index.html) which is now hosted on GitHub Pages.
 
-The aim for the website is as a static webpage for an NGO 'Ranjeet Bakhshi Jan Kalyan Sabha'. The NGO conducts many activites and crowd-funding campaigns to help people in lower-economic and social backgrounds to empower themselves.
-This website has to be duolingual with both English and Hindi as the required languages.
+The aim for the site is as a static web page for an NGO 'Ranjeet Bakhshi Jan Kalyan Sabha'. The NGO conducts many activites and crowd-funding campaigns to help people in lower-economic and social backgrounds to empower themselves.
+This site has to be duolingual with both English and Hindi as the required languages.
 
 
-### Preferred colors for the website
+### Preferred colors for the site
 
 <span style="color:#22B9A8">Emerald - #22B9A8</span>
 
 ![Emerald](https://user-images.githubusercontent.com/115361239/220578047-1ed3c681-0282-4b1e-85bd-66e86b1344bd.png)
-
 
 <span style="color:#ff9933">Deep Saffron - #ff9933</span>
 
