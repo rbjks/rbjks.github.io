@@ -1,47 +1,25 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: verdana;
+  font-family: verdana, "sans-serif";
 }
 
 #navbar {
   width: 100%;
-  /* position: absolute; */
-  background-color: #EDC9AF;
+  // position: absolute;
+  background-color: #edc9af;
 }
 
 nav {
   width: 100%;
   height: 8vh;
   background-color: transparent;
-  background-color: #22B9A8;
-  /* line-height: 50px; */
+  background-color: #22b9a8;
+  // line-height: 50px; 
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-/* nav ul{
-    float: right;
-    margin-right: 30px; 
-    display: flex;
-  }
-  nav ul img{
-    text-align: left;
-  }
-  nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    transition: 0.7s all;
-  }
-  nav ul li:hover{
-    background-color:#088;
-  }
-  nav ul li a{
-    text-decoration: none;
-    /* color: #fff; 
-    padding: 30px;
-  } */
 
 nav ul {
   display: flex;
@@ -57,7 +35,7 @@ nav .logo {
 }
 
 nav ul li {
-  /* margin-left: 3.5rem; */
+  // margin-left: 3.5rem;
   list-style: none;
   text-decoration: none;
   transition: 0.25s all;
@@ -81,13 +59,13 @@ nav ul li::after {
   bottom: -9px;
   left: 0;
   background-color: #fff;
-  /* transform-origin: bottom right; */
+  // transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
 
 nav ul li:hover::after {
   transform: scaleX(0.7);
-  /* transform-origin: bottom left; */
+  // transform-origin: bottom left;
 }
 
 nav ul li:hover {
@@ -99,18 +77,18 @@ nav ul li a:active {
 }
 
 .introduction {
-  background-color: #EDC9AF;
-  /* height: 85vh; */
+  background-color: #edc9af;
+  // height: 85vh;
   display: flex;
   padding: 7.5vh 10vw;
   justify-content: space-between;
 }
 
 .intro-image {
-  /* height: 84vh;
-  width: 30vw; */
+  // height: 84vh;
+  // width: 30vw;
   border: 1px solid white;
-  border-radius: 4% 4% 25% 4%;
+  border-radius: 4% 4% 25%;
   max-width: 80%;
   height: auto;
   position: relative;
@@ -128,7 +106,7 @@ nav ul li a:active {
 
 /* contact.html CSS starts here */
 .contact {
-  background-color: #EDC9AF;
+  background-color: #edc9af;
   display: flex;
   flex-direction: column;
   /* justify-content: space-evenly; */
@@ -141,7 +119,7 @@ nav ul li a:active {
   background: #fff;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 20%);
   margin-top: 80px;
   position: relative;
   height: 50vh;
@@ -221,7 +199,7 @@ nav ul li a:active {
   border: none;
   outline: none;
   font-size: 16px;
-  background: #F0F1F8;
+  background: #f0f1f8;
   border-radius: 6px;
   padding: 0 15px;
   resize: none;
@@ -310,10 +288,10 @@ nav ul li a:active {
 }
 
 .activities {
-  background-color: #EDC9AF;
+  background-color: #edc9af;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  // justify-content: space-between;
   height: 100vh;
 }
 
@@ -322,15 +300,15 @@ nav ul li a:active {
 }
 
 /* Footer */
-footer{
+footer {
   display: flex;
   justify-content: space-around;
-  background-color: #22B9A8;
+  background-color: #22b9a8;
   padding: 1rem 0;
   font-weight: 600;
 }
 
-.flex-col{
+.flex-col {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -339,7 +317,7 @@ footer{
   gap: 1rem;
 }
 
-.about p{
+.about p {
   opacity: 0.7;
   display: flex;
   align-items: center;
@@ -351,19 +329,20 @@ footer{
   padding-right: 5px;
 }
 
-.about--address{
+.about-address{
   width: 50%;
 }
 
-.social-media-icons{
+.social-media-icons {
   font-size: 1.5rem;
 }
-.icons{
+
+.icons {
   display: flex;
   gap: 1rem;
 }
 
-.icons img{
+.icons img {
   height: 1.5rem;
   width: 1.5rem;
 }
