@@ -1,0 +1,16 @@
+name: linter
+run-name: Linter running on ${{ github.actor }} 's Pull Request
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
+jobs:
+  linting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Super-Linter
+    - uses: github/super-linter@v4.10.1
