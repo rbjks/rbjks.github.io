@@ -1,72 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
+<html lang ="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RBJKS::Contact</title>
+    <title>RBJKS::Home</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
-
 <body>
-    <div class="contact">
-        <div id="navbar">
-            <nav>
-                <img class="logo" alt="RBJKS LOGO"
-                    src="https://assets.msn.com/weathermapdata/1/static/svg/72/v6/card/Haze.svg" />
-                <ul>
-                    <li><a class="translate" href="/" aria-label="होम">Home</a></li>
-                    <li><a class="translate" href="/activities.html" target="_self" aria-label="प्रयास">Activities</a>
-                    </li>
-                    <li><a class="translate" href="/contact.html" target="_self" aria-label="सम्पर्क करें">Contact
-                            Us</a></li>
-                    <li><a class="translate" href="#" aria-label="Read in English" onclick="changelanguage()">हिन्दी में
-                            देखिये</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="container">
-            <div class="content">
-                <div class="left-side">
-                    <div class="address details">
-                        <div class="topic">Address</div>
-                        <div class="text-one">ABC, XYZ</div>
-                        <siv class="text-two">Lorem ipsum dolor sit amet., 101010</siv>
-                    </div>
-                    <div class="phone details">
-                        <div class="topic">Phone</div>
-                        <div class="text-one">+91987654321</div>
-                        <div class="text-two">+91987654321</div>
-                    </div>
-                    <div class="email details">
-                        <div class="topic">Email</div>
-                        <div class="text-one">abcd@xyz.com</div>
-                        <div class="text-two">abcd@xyz.com</div>
-                    </div>
+    <div id="navbar">
+        <nav>
+            <img class="logo" alt="RBJKS LOGO" src="https://assets.msn.com/weathermapdata/1/static/svg/72/v6/card/Haze.svg" />
+            <ul>
+                <!-- <li></li>  -->
+                <li><a class="translate" href="/" aria-label="होम">Home</a></li>
+                <li><a class="translate" href="/activities.html" target="_self" aria-label="प्रयास">Activities</a></li>
+                <li><a class="translate" href="/contact.html" target="_self" aria-label="सम्पर्क करें">Contact Us</a></li>
+                <li><a class="translate" href="#" aria-label="Read in English" onclick="changelanguage()">हिन्दी में देखिये</a></li>
+            </ul>
+            <!-- <ul lang="hi">
+                <li><a href="#">होम</a></li>
+                <li><a href="#">प्रयास </a></li>
+                <li><a href="#">सम्पर्क करें </a></li>
+                <li><a href="#" onclick="changelanguage('en')">Read in English</a></li>
+            </ul> -->
+        </nav>
+    </div>
+    <div class = "introduction">
+        <section class="intro-image-section">
+            <img src = "assets/images/brand/Ext jacket.jpg" class="intro-image" alt=""/>
+        </section>
+        <section class="intro-text">
+            <h1 class = "title translate" aria-label="रणजीत बख्शी जन कल्याण सभा">Ranjeet Bakhshi Jan Kalyan Sabha</h1>
+            <p class ="subtitle translate" aria-label="हिमाचल प्रदेश में स्थित नूरपुर शहर की रणजीत बख्शी जन कल्याण सभा एक NGO है, जो ग्रामीण मुद्दे सुलझाने का प्रयास करती है|">
+                An NGO set up in Nurpur, Himachal Pradesh, Ranjeet Bakhshi Jan Kalyan Sabha (RBJKS) aims to solve local community issues by means of organic crowdfunding.</p>
+        </section>
+
+    </div>
+
+    <div class="footer">
+        <footer>
+            <section class="about flex-col">
+                <img class="logo" alt="RBJKS LOGO" src="https://assets.msn.com/weathermapdata/1/static/svg/72/v6/card/Haze.svg" />
+                <p class="about--address">PO Jassur, Tehsil - Nurpur, District - Kangra, HP, 176201.</p>
+                <p class="about--contact"><img src="./assets/images/phone.svg" /> +91 - 9418151074 / 8675300009</p>
+                <p class="about--mail"><img src="./assets/images/mail.svg" /> RBJKS.info@gmail.com</p>
+            </section>
+            <section class="social-media-icons flex-col">
+                <p>Contact Us</p>
+                <div class="icons">
+                    <a href="https://twitter.com/a_bsays"><img src="./assets/images/twitter.svg" alt="twitter"></a>
+
+
+                    <a href="#"><img src="./assets/images/instagram.svg" alt="instagram"></a>
+                    <a href="https://www.facebook.com/akil.bakhshi/"><img src="./assets/images/facebook.svg" alt="facebook"></a>
+
                 </div>
-                <div class="right-side">
-                    <div class="topic-text">Send us a message</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, voluptatem.</p>
-                    <form action="#">
-                        <div class="input-box">
-                            <input type="text" placeholder="Enter your Name">
-                        </div>
-                        <div class="input-box">
-                            <input type="text" placeholder="Enter your email">
-                        </div>
-                        <div class="input-box message-box">
-                            <input type="text" placeholder="Enter your message">
-                        </div>
-                        <div class="button">
-                            <input type="button" value="Send Now">
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
+            </section>
+        </footer>
     </div>
 </body>
-
+<script src = "script/main.js"></script>
 </html>
