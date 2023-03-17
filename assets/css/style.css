@@ -21,29 +21,6 @@ nav {
     justify-content: space-between;
 }
 
-
-/* nav ul{
-    float: right;
-    margin-right: 30px; 
-    display: flex;
-  }
-  nav ul img{
-    text-align: left;
-  }
-  nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    transition: 0.7s all;
-  }
-  nav ul li:hover{
-    background-color:#088;
-  }
-  nav ul li a{
-    text-decoration: none;
-    /* color: #fff; 
-    padding: 30px;
-  } */
-
 nav ul {
     display: flex;
     align-items: center;
@@ -365,6 +342,3 @@ footer {
     height: 1.5rem;
     width: 1.5rem;
 }
-
-
-/*Contact Page new*/
