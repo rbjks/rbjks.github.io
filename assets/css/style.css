@@ -369,7 +369,7 @@ footer{
 }
 
 /* Footer styles for small screens */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .footer {
     flex-direction: row;
     align-items: center;
@@ -397,37 +397,24 @@ footer{
     height: 30px;
     margin: 0 10px;
   }
-}
-
-/* for tablets */
-@media screen and (min-width:600px) {
-  .footer {
+} */
+/* Media queries */
+@media (max-width: 768px) {
+  footer {
     flex-direction: column;
     align-items: center;
-    padding: 0px ;
-    width: 100%;
-  }
-
-  .about, .social-media-icons {
-    margin-bottom: 0px;
-  }
-  
-  .about--address, .about--contact, .about--mail {
     text-align: center;
-    margin-bottom: 0px;
+    word-break: break-all;
   }
   
-  .icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 2px;
-  }
+  .flex-col {
+    align-items: center;
+    margin-bottom: 1em;
   
-  .icons img {
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
   }
-
+  .about--address {
+    width: 100%;
+    text-align: center;
+  }
   
 }
