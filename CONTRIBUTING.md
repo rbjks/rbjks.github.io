@@ -88,10 +88,6 @@ Navigate to the original repository and make a pull request.
 
 #### In case of merge conflict fetch and merge from the remote repository .
 
-
-
-
-
 ## Are you a beginner in using Github?
 
 You can refer to the following articles on the basics of Git and Github and also contact me, in case you are stuck:
