@@ -17,7 +17,7 @@ Here are some set of guidelines to follow while contributing to `rbjks.github.io
 6. Don't create issues that are **already listed**.
 7. Please don't pick up an issue already assigned to someone else. Work on the issues after it gets **assigned to you**.
 8. Create your file in an appropriate folder with appropriate name and extension.
-9. Pull requests will be merged after being **reviewed** by  mentor .
+9. Pull requests will be merged after appropriate reviews.
 10. We all are here to learn. You are allowed to make mistakes. That's how you learn, right!.
 
 
