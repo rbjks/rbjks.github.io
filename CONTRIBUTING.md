@@ -4,7 +4,8 @@ First of all thanks for spending your time to contribute or showing interest to 
 
 This documentation contains a set of `Guidelines` and `Steps` to help you during the contribution process.
 
-<br><br>
+
+
 # 🔑 Guidelines for contributing :
 
 Here are some set of guidelines to follow while contributing to `rbjks.github.io` :
@@ -20,7 +21,7 @@ Here are some set of guidelines to follow while contributing to `rbjks.github.io
 9. We all are here to learn. You are allowed to make mistakes. That's how you learn, right!.
 
 
-<br>
+
 
 # ▶️ Steps for contributing :
 ## Fork this repository
@@ -29,8 +30,7 @@ Here are some set of guidelines to follow while contributing to `rbjks.github.io
 <br>
 Fork this repository by clicking on the fork button on the top of this page.
 This will create a copy of this repository in your account.
-<br><br><br>
-<br>
+
 
 ## Clone This Repository
 
@@ -38,13 +38,13 @@ This will create a copy of this repository in your account.
 
 Now clone the forked repository to your machine. 
 Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
-<br>
+
 
 Open a terminal and run the following git command:
 ```
 git clone https://github.com/<Your-Github-username>/rbjks.github.io.git
 ```
-<br>
+
 
 ## Create a branch
 
