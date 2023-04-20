@@ -84,7 +84,7 @@ Push the changes to the forked repository using:
 ```
 git push origin <Your-branch-name>
 ```
-Navigate to the original for of this repository and click on the branch you had commited to.
+Navigate to the original fork of this repository on your profile and click on the branch you had committed to.
 Then click on Contribute to create a Pull Request i.e create a PR on Github. (Don't just hit the create a pull request button, you must write a PR message to clarify why and what are you contributing)
 
 #### In case of merge conflict fetch and merge from the remote repository .
