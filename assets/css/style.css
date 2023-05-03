@@ -6,42 +6,22 @@
 
 #navbar {
   width: 100%;
-  /* position: absolute; */
   background-color: #EDC9AF;
 }
 
+#navbar ul.mobileNav{
+  display:none;
+}
+
 nav {
-  width: 100%;
-  height: 8vh;
+  max-width: 100vw;
+  height: 85px;
   background-color: transparent;
   background-color: #22B9A8;
-  /* line-height: 50px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-/* nav ul{
-    float: right;
-    margin-right: 30px; 
-    display: flex;
-  }
-  nav ul img{
-    text-align: left;
-  }
-  nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    transition: 0.7s all;
-  }
-  nav ul li:hover{
-    background-color:#088;
-  }
-  nav ul li a{
-    text-decoration: none;
-    /* color: #fff; 
-    padding: 30px;
-  } */
 
 nav ul {
   display: flex;
@@ -49,6 +29,7 @@ nav ul {
   justify-content: center;
   margin: 0 4rem;
 }
+
 
 nav .logo {
   padding: 0.5rem 2rem;
@@ -63,6 +44,11 @@ nav ul li {
   transition: 0.25s all;
   display: inline-block;
   position: relative;
+  white-space: nowrap;
+}
+
+nav a.icon{
+  display: none;
 }
 
 nav ul li a {
@@ -278,9 +264,9 @@ nav ul li a:active {
     height: 100%;
   }
 
-  .intro-text {
+  /* .intro-text {
     margin-top: 140px;
-  }
+  } */
 
   .container .content {
     flex-direction: column-reverse;
@@ -368,36 +354,6 @@ footer{
   width: 1.5rem;
 }
 
-/* Footer styles for small screens */
-/* @media only screen and (max-width: 600px) {
-  .footer {
-    flex-direction: row;
-    align-items: center;
-    padding: 0px ;
-    width: 100%;
-  }
-  
-  .about, .social-media-icons {
-    margin-bottom: 0px;
-  }
-  
-  .about--address, .about--contact, .about--mail {
-    text-align: center;
-    margin-bottom: 0px;
-  }
-  
-  .icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 2px;
-  }
-  
-  .icons img {
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
-  }
-} */
 /* Media queries */
 @media (max-width: 768px) {
   footer {
@@ -407,7 +363,7 @@ footer{
     word-break: break-all;
   }
   
-  .flex-col {
+  .footer .flex-col {
     align-items: center;
     margin-bottom: 1em;
   
@@ -415,6 +371,32 @@ footer{
   .about--address {
     width: 100%;
     text-align: center;
+  }
+
+  nav a.icon{
+    display: block;
+    margin-right: 15px;
+    color: white;
+  }
+
+  nav ul{
+    display: none;
+  }
+
+  #navbar ul.mobileNav.mobileVisible {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #22B9A8;
+    height: 30vh;
+    justify-content: space-evenly;
+  }
+  #navbar ul.mobileNav.mobileVisible li{
+    list-style-type: none;
+  }
+  #navbar ul.mobileNav.mobileVisible li a{
+    text-decoration:none;
+    color: white;
   }
   
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RBJKS::Home</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id="navbar">
@@ -19,13 +19,18 @@
                 <li><a class="translate" href="/contact.html" target="_self" aria-label="सम्पर्क करें">Contact Us</a></li>
                 <li><a class="translate" href="#" aria-label="Read in English" onclick="changelanguage()">हिन्दी में देखिये</a></li>
             </ul>
-            <!-- <ul lang="hi">
-                <li><a href="#">होम</a></li>
-                <li><a href="#">प्रयास </a></li>
-                <li><a href="#">सम्पर्क करें </a></li>
-                <li><a href="#" onclick="changelanguage('en')">Read in English</a></li>
-            </ul> -->
+            <a href="javascript:void(0);" class="icon" onclick="toggleMobileNav()">
+                <i class="fa fa-bars"></i>
+              </a>
+
         </nav>
+        <ul class="mobileNav">
+            <li><a class="translate" href="/" aria-label="होम">Home</a></li>
+                <li><a class="translate" href="/activities.html" target="_self" aria-label="प्रयास">Activities</a></li>
+                <li><a class="translate" href="/contact.html" target="_self" aria-label="सम्पर्क करें">Contact Us</a></li>
+                <li><a class="translate" href="#" aria-label="Read in English" onclick="changelanguage()">हिन्दी में देखिये</a></li>
+            
+        </ul>
     </div>
     <div class = "introduction">
         <section class="intro-image-section">
