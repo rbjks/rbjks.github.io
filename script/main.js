@@ -3,6 +3,8 @@ var prefLanguage = 'en';
 
 var translateElements = document.querySelectorAll('.translate')
 var htmlParent = document.querySelector('html')
+var navbarlist = document.querySelector('#navbar ul.mobileNav')
+
 //var englishElements = document.querySelectorAll('.translate')
 //var hindiElements = document.querySelectorAll('[lang = hi]')
 
@@ -45,4 +47,13 @@ function swap(el){
     el.ariaLabel = el.innerText;
     el.innerText = i;
     
+}
+
+function toggleMobileNav() {
+    if(navbarlist.className==='mobileNav'){
+        navbarlist.className+=" mobileVisible"
+    }
+    else{
+        navbarlist.className='mobileNav';
+    }
 }
