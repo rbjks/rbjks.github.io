@@ -295,18 +295,6 @@ nav ul li a:active {
 }
 }
 
-.activities {
-  background-color: #EDC9AF;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
-  height: 100vh;
-}
-
-.activities1 {
-  margin-top: 7%;
-}
-
 /* Footer */
 footer{
   display: flex;
