@@ -57,3 +57,25 @@ function toggleMobileNav() {
         navbarlist.className='mobileNav';
     }
 }
+
+const galleryContainer = document.getElementById('imageGallery');
+
+fetch('images.json')
+  .then(response => response.json())
+  .then(data => {
+    data.images.forEach(imageInfo => {
+      const imageElement = document.createElement('img');
+      imageElement.src = imageInfo.url;
+      imageElement.alt = imageInfo.caption;
+
+      const captionElement = document.createElement('div');
+      captionElement.textContent = imageInfo.caption;
+
+      const galleryItem = document.createElement('div');
+      galleryItem.appendChild(imageElement);
+      galleryItem.appendChild(captionElement);
+
+      galleryContainer.appendChild(galleryItem);
+    });
+  })
+  .catch(error => console.error('Error fetching JSON:', error));

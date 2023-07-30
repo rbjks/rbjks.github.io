@@ -1,0 +1,17 @@
+{
+    "images": [
+      {
+        "url": "./assets/brand/Blue Shirt.jpg",
+        "caption": "Caption for Image 1"
+      },
+      {
+        "url": "./assets/brand/Ext jacket.jpg",
+        "caption": "Caption for Image 2"
+      },
+      {
+        "url": "./assets/brand/RBJKS logo.jpg",
+        "caption": "Caption for Image 3"
+      }
+    ]
+  }
+  
