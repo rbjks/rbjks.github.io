@@ -1,0 +1,40 @@
+{
+  "images": [
+    {
+      "url": "https://via.placeholder.com/300",
+      "caption": "Placeholder Image 1"
+    },
+    {
+      "url": "https://via.placeholder.com/350",
+      "caption": "Placeholder Image 2"
+    },
+    {
+      "url": "https://via.placeholder.com/400",
+      "caption": "Placeholder Image 3"
+    },
+    {
+      "url": "https://via.placeholder.com/450",
+      "caption": "Placeholder Image 4"
+    },
+    {
+      "url": "https://via.placeholder.com/500",
+      "caption": "Placeholder Image 5"
+    },
+    {
+      "url": "https://via.placeholder.com/500",
+      "caption": "Placeholder Image 5"
+    },
+    {
+      "url": "https://via.placeholder.com/500",
+      "caption": "Placeholder Image 5"
+    },
+    {
+      "url": "https://via.placeholder.com/500",
+      "caption": "Placeholder Image 5"
+    },
+    {
+      "url": "https://via.placeholder.com/500",
+      "caption": "Placeholder Image 5"
+    }
+  ]
+}
