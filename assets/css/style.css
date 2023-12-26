@@ -4,6 +4,10 @@
     font-family: verdana;
 }
 
+html,body{
+    height: 100%;
+}
+
 #navbar {
     width: 100%;
     background-color: #EDC9AF;
@@ -296,7 +300,7 @@ nav ul li a:active {
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .activities1 {
