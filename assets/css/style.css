@@ -71,7 +71,7 @@ nav ul li::after {
     bottom: -9px;
     left: 0;
     background-color: #000;
-    background-color: #ccc;
+    background-color: #fff;
     /* transform-origin: bottom right; */
     transition: transform 0.25s ease-out;
 }
@@ -86,7 +86,7 @@ nav ul li:hover {
 }
 
 nav ul li a:active {
-    color: #ccc;
+    color: #fff;
 }
 
 .introduction {
