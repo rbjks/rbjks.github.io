@@ -16,6 +16,9 @@ jobs:
           # Make sure the value of GITHUB_TOKEN will not be persisted in repo's config
           persist-credentials: false
 
+      - name: Commit URL
+        run: git remote set-url https://github-actions:${{github.token}}@github.com/rbjks/rbjks.github.io.git
+
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
