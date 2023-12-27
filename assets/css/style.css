@@ -58,7 +58,7 @@ nav a.icon {
 nav ul li a {
     padding: 1.35rem 2rem;
     text-decoration: none;
-    color: #ccc;
+    color: #fff;
 }
 
 nav ul li::after {
@@ -108,7 +108,7 @@ nav ul li a:active {
 }
 
 .intro-text {
-    color: #ccc;
+    color: #fff;
     width: 40vw;
     margin-top: 20vh;
 }
