@@ -1,24 +1,24 @@
 {
   "images": [
     {
-      "url": "https://via.placeholder.com/300",
-      "caption": "Placeholder Image 1"
+      "url": "assets/images/Activities/14 Dec.jpg",
+      "caption": "14 December image"
     },
     {
-      "url": "https://via.placeholder.com/350",
+      "url": "assets/images/Activities/18 May.jpg",
       "caption": "Placeholder Image 2"
     },
     {
-      "url": "https://via.placeholder.com/400",
+      "url": "assets/images/Activities/21 Aug.jpg",
       "caption": "Placeholder Image 3"
     },
     {
-      "url": "https://via.placeholder.com/450",
+      "url": "assets/images/Activities/3 July.jpg",
       "caption": "Placeholder Image 4"
     },
     {
-      "url": "https://via.placeholder.com/500",
-      "caption": "Placeholder Image 5"
+      "url": "assets/images/Activities/8 Aug.jpg",
+      "caption": "8 August image"
     },
     {
       "url": "https://via.placeholder.com/500",
