@@ -17,7 +17,7 @@ jobs:
           persist-credentials: false
 
       - name: Commit URL
-        run: git remote set-url https://github-actions:${{github.token}}@github.com/rbjks/rbjks.github.io.git
+        run: git remote set-url origin https://github-actions:${{github.token}}@github.com/rbjks/rbjks.github.io.git
 
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
