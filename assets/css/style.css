@@ -4,6 +4,10 @@
     font-family: verdana;
 }
 
+html,body{
+    height: 100%;
+}
+
 #navbar {
     width: 100%;
     background-color: #EDC9AF;
@@ -54,7 +58,7 @@ nav a.icon {
 nav ul li a {
     padding: 1.35rem 2rem;
     text-decoration: none;
-    color: #ccc;
+    color: #fff;
 }
 
 nav ul li::after {
@@ -67,7 +71,7 @@ nav ul li::after {
     bottom: -9px;
     left: 0;
     background-color: #000;
-    background-color: #ccc;
+    background-color: #fff;
     /* transform-origin: bottom right; */
     transition: transform 0.25s ease-out;
 }
@@ -82,7 +86,7 @@ nav ul li:hover {
 }
 
 nav ul li a:active {
-    color: #ccc;
+    color: #fff;
 }
 
 .introduction {
@@ -104,7 +108,7 @@ nav ul li a:active {
 }
 
 .intro-text {
-    color: #ccc;
+    color: #fff;
     width: 40vw;
     margin-top: 20vh;
 }
@@ -296,7 +300,7 @@ nav ul li a:active {
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .activities1 {
