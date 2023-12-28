@@ -43,7 +43,7 @@ nav ul li {
 nav ul li a {
     padding: 1.35rem 2rem;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 nav ul li::after {
@@ -55,7 +55,7 @@ nav ul li::after {
     height: 4px;
     bottom: -9px;
     left: 0;
-    background-color: #000;
+    background-color: #fff;
     transition: transform 0.25s ease-out;
 }
 
