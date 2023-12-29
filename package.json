@@ -5,9 +5,13 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "fix": "concurrently --kill-others-on-fail --prefix-colors \"auto\" \"npm:fix:*\"",
+    "fix:prettier": "prettier --ignore-unknown --cache --write .",
+    "lint": "concurrently --prefix-colors \"auto\" \"npm:lint:*\"",
+    "lint:prettier": "prettier --ignore-unknown --cache --check ."
   },
   "devDependencies": {
+    "concurrently": "8.2.2",
     "prettier": "3.1.1",
     "prettier-plugin-packagejson": "2.4.8"
   }
