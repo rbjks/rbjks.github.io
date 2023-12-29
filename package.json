@@ -1,12 +1,10 @@
 {
   "name": "rbjks.github.io",
-  "version": "1.0.0",
   "description": "Access this website at https://rbjks.github.io/index.html",
-  "main": ".prettierrc.js",
+  "sideEffects": false,
+  "type": "module",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
