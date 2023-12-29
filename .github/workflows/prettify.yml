@@ -1,7 +1,6 @@
 name: Prettier Action
 
-on:
-  push
+on: push
 
 jobs:
   prettier:

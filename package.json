@@ -1,9 +1,9 @@
 {
   "name": "rbjks.github.io",
+  "private": true,
   "description": "Access this website at https://rbjks.github.io/index.html",
   "sideEffects": false,
   "type": "module",
-  "private": true,
   "scripts": {
     "fix": "concurrently --kill-others-on-fail --prefix-colors \"auto\" \"npm:fix:*\"",
     "fix:prettier": "prettier --ignore-unknown --cache --write .",
