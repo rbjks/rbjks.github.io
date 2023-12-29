@@ -8,7 +8,8 @@
     "fix": "concurrently --kill-others-on-fail --prefix-colors \"auto\" \"npm:fix:*\"",
     "fix:prettier": "prettier --ignore-unknown --cache --write .",
     "lint": "concurrently --prefix-colors \"auto\" \"npm:lint:*\"",
-    "lint:prettier": "prettier --ignore-unknown --cache --check ."
+    "lint:prettier": "prettier --ignore-unknown --cache --check .",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "concurrently": "8.2.2",
