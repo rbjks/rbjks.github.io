@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           ref: ${{ github.head_ref }}
@@ -18,8 +18,14 @@ jobs:
       - name: Commit URL
         run: git remote set-url origin https://github-actions:${{github.token}}@github.com/rbjks/rbjks.github.io.git
 
-      - name: Prettify code
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+      - run: npm ci
+
+      - name: Prettify Code
         uses: creyD/prettier_action@v4.3
         with:
-          dry: False
+          dry: false
           github_token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
