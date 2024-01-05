@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 #navbar {
@@ -71,11 +72,15 @@ nav ul li a:active {
     color: #fff;
 }
 
+body{
+    /* background-color: #edc9af; */
+}
+
 section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    padding: 50px;
     /* min-height: 100vh; */
     /* background-color: #edc9af; */
 }
@@ -88,6 +93,10 @@ section {
     z-index: 1000;
     display: flex;
     flex-direction: row;
+}
+
+.mainbody{
+    background-color: #edc9af;
 }
 
 .container .contactInfo {
