@@ -75,6 +75,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
     /* min-height: 100vh; */
     /* background-color: #edc9af; */
 }
@@ -85,12 +86,15 @@ section {
     min-height: 550px;
     display: flex;
     z-index: 1000;
+    display: flex;
+    flex-direction: row;
 }
 
 .container .contactInfo {
-    position: absolute;
+
+    position: relative;
     top: 40px;
-    width: 350px;
+    width: 40%;
     height: calc(100% - 80px);
     background: #22B9A8;
     z-index: 1;
@@ -168,11 +172,11 @@ section {
 }
 
 .container .contactForm {
-    position: absolute;
+    position: relative;
     padding: 70px 50px;
-    padding-left: 250px;
-    margin-left: 150px;
-    width: calc(100% - 150px);
+    /* padding-left: 250px; */
+    margin-left: 50px;
+    width: 60%;
     height: 100%;
     background: #fff;
     box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
