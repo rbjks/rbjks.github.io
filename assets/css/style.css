@@ -108,13 +108,17 @@ nav ul li a:active {
 }
 
 .intro-text {
-    color: #fff;
+    color: #F28507;
     width: 40vw;
     margin-top: 20vh;
 }
 
 .intro-text .title {
     margin-bottom: 30px;
+}
+
+.subtitle{
+    color: #F28507;
 }
 
 
