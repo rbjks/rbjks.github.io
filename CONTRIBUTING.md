@@ -1,10 +1,8 @@
 # Contributing Guidelines
 
-First of all thanks for spending your time to contribute or showing interest to contribute to this project :smiley: 
+First of all thanks for spending your time to contribute or showing interest to contribute to this project :smiley:
 
 This documentation contains a set of `Guidelines` and `Steps` to help you during the contribution process.
-
-
 
 # 🔑 Guidelines for contributing :
 
@@ -20,31 +18,28 @@ Here are some set of guidelines to follow while contributing to `rbjks.github.io
 8. Pull requests will be merged after appropriate reviews.
 9. We all are here to learn. You are allowed to make mistakes. That's how you learn, right!.
 
-
-
-
 # ▶️ Steps for contributing :
+
 ## Fork this repository
+
 <img align="right" width="300"  alt="image" src="https://user-images.githubusercontent.com/110724849/230174676-887cfddf-0c2d-4811-9aa1-0758af091c6b.png">
 
 <br>
 Fork this repository by clicking on the fork button on the top of this page.
 This will create a copy of this repository in your account.
 
-
 ## Clone This Repository
 
 <img  align="right" width="200" src="https://user-images.githubusercontent.com/110724849/230175272-c713e91d-f5bf-4cc3-8e37-b36f5d6881fb.png">
 
-Now clone the forked repository to your machine. 
+Now clone the forked repository to your machine.
 Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
 
-
 Open a terminal and run the following git command:
+
 ```
 git clone https://github.com/<Your-Github-username>/rbjks.github.io.git
 ```
-
 
 ## Create a branch
 
@@ -67,6 +62,7 @@ git checkout -b add-new-feature
 ```
 
 ## Make necessary changes and commit those changes
+
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
 
 Add those changes to the branch you just created using the git add command:
@@ -74,16 +70,21 @@ Add those changes to the branch you just created using the git add command:
 ```
 git add .
 ```
+
 Now commit those changes using the git commit command:
 
 ```
 git commit -m "Your commit message"
 ```
+
 ## Push changes to GitHub
+
 Push the changes to the forked repository using:
+
 ```
 git push origin <Your-branch-name>
 ```
+
 Navigate to the original fork of this repository on your profile and click on the branch you had committed to.
 Then click on Contribute to create a Pull Request i.e create a PR on Github. (Don't just hit the create a pull request button, you must write a PR message to clarify why and what are you contributing)
 
@@ -92,6 +93,7 @@ Then click on Contribute to create a Pull Request i.e create a PR on Github. (Do
 ## Are you a beginner in using Github?
 
 You can refer to the following articles on the basics of Git and Github and also contact me, in case you are stuck:
+
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 - [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request)
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)

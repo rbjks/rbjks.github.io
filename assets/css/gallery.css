@@ -1,32 +1,32 @@
-.body{
-    background-color: #edc9af;
+.body {
+  background-color: #edc9af;
 }
 
 /* Basic styles for the gallery */
-.gallery-container{
-    padding: 8vh 5vh;
+.gallery-container {
+  padding: 8vh 5vh;
 }
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
 }
 
 /* Style for each image item */
 .gallery-item {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #ccc;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 10px;
 }
 
 .gallery-item img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .gallery-item p {
-    margin-top: 10px;
-    font-size: 14px;
-    text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
 }

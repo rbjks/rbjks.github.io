@@ -1,20 +1,20 @@
-var prefLanguage = "en";
+var prefLanguage = 'en';
 //https://stackoverflow.com/questions/16206322/how-to-get-js-variable-to-retain-value-after-page-refresh
 
-var translateElements = document.querySelectorAll(".translate");
-var htmlParent = document.querySelector("html");
-var navbarlist = document.querySelector("#navbar ul.mobileNav");
+var translateElements = document.querySelectorAll('.translate');
+var htmlParent = document.querySelector('html');
+var navbarlist = document.querySelector('#navbar ul.mobileNav');
 
 //var englishElements = document.querySelectorAll('.translate')
 //var hindiElements = document.querySelectorAll('[lang = hi]')
 
 window.onload = () => {
   console.log(prefLanguage);
-  if (prefLanguage != "en") changelanguage();
+  if (prefLanguage != 'en') changelanguage();
 };
 
 function changelanguage() {
-  prefLanguage = prefLanguage == "en" ? "hi" : "en";
+  prefLanguage = prefLanguage == 'en' ? 'hi' : 'en';
   htmlParent.lang = prefLanguage;
   translateElements.forEach((el) => swap(el));
   /*
@@ -48,32 +48,32 @@ function swap(el) {
 }
 
 function toggleMobileNav() {
-  if (navbarlist.className === "mobileNav") {
-    navbarlist.className += " mobileVisible";
+  if (navbarlist.className === 'mobileNav') {
+    navbarlist.className += ' mobileVisible';
   } else {
-    navbarlist.className = "mobileNav";
+    navbarlist.className = 'mobileNav';
   }
 }
 
 // PULL IMAGES FROM 'imges.json' AND DISPLAY THEM
-document.addEventListener("DOMContentLoaded", function () {
-  const gallery = document.getElementById("gallery");
+document.addEventListener('DOMContentLoaded', function () {
+  const gallery = document.getElementById('gallery');
 
   // Fetch JSON data
-  fetch("images.json")
+  fetch('images.json')
     .then((response) => response.json())
     .then((data) => {
       // Iterate through each image in the JSON
       data.images.forEach((image) => {
         // Create elements for image and caption
-        const item = document.createElement("div");
-        item.classList.add("gallery-item");
+        const item = document.createElement('div');
+        item.classList.add('gallery-item');
 
-        const img = document.createElement("img");
+        const img = document.createElement('img');
         img.src = image.url;
         img.alt = image.caption;
 
-        const caption = document.createElement("p");
+        const caption = document.createElement('p');
         caption.textContent = image.caption;
 
         // Append elements to the gallery
@@ -83,6 +83,6 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     })
     .catch((error) => {
-      console.error("Error fetching data:", error);
+      console.error('Error fetching data:', error);
     });
 });
