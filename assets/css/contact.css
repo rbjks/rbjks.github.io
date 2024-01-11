@@ -28,7 +28,8 @@ nav ul {
 
 nav .logo {
   padding: 0.5rem 2rem;
-  width: 9%;
+  width: 108px;
+  height: auto;
   visibility: visible;
 }
 
