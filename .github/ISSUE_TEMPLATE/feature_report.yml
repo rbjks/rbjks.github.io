@@ -1,6 +1,6 @@
 name: 💡 General Feature Request
 description: Have a new idea/feature for rbjks? Let us know...
-title: "[FEATURE] <description>"
+title: "[FEATURE]: <description>"
 labels: ["⭐ goal: addition", "🚦 status: awaiting triage"]
 body:
   - type: checkboxes
