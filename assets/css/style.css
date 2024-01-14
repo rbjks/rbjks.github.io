@@ -128,15 +128,8 @@ nav ul li a:active {
   height: 100vh;
 }
 
-.container {
-  width: 85%;
-  background: #fff;
-  border-radius: 6px;
-  padding: 20px 60px 30px 40px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  margin-top: 80px;
-  position: relative;
-  height: 50vh;
+.container{
+  background-color: white;
 }
 
 .container .content {
@@ -261,7 +254,9 @@ nav ul li a:active {
   .intro-text {
     margin-top: 5px;
   }
+  
 }
+
 
 @media (max-width: 820px) {
   .container {
@@ -308,12 +303,13 @@ nav ul li a:active {
 
 /* Footer */
 
-footer {
+footer { 
   display: flex;
   justify-content: space-around;
   background-color: #22b9a8;
   padding: 1rem 0;
   font-weight: 600;
+  width: 100%;
 }
 
 .flex-col {
