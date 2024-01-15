@@ -93,10 +93,13 @@ section {
   z-index: 1000;
   display: flex;
   flex-direction: row;
+  background-color: #edc9af;
+  
 }
 
 .mainbody {
   background-color: #edc9af;
+  overflow-x: hidden;
 }
 
 .container .contactInfo {
@@ -183,7 +186,7 @@ section {
   padding: 70px 50px;
   /* padding-left: 250px; */
   margin-left: 50px;
-  width: 60%;
+  width: 90%;
   height: 100%;
   background: #fff;
   box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
@@ -306,13 +309,14 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: #edc9af;
+    /* min-height: 100vh; */
+    /* background: #edc9af; */
   }
   section::before {
     display: none;
   }
   .container {
+    width: 100%;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -348,6 +352,104 @@ section {
     margin-top: 40px;
   }
   .container .contactForm .formBox .inputBox.w50 {
+    width: 100%;
+  }
+}
+
+
+.body {
+  background-color: #edc9af;
+  overflow-x: hidden;
+}
+
+#navbar ul.mobileNav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    word-break: break-all;
+  }
+
+  .footer .flex-col {
+    align-items: center;
+    margin-bottom: 1em;
+  }
+
+  .about--address {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav a.icon {
+    display: block;
+    margin-right: 15px;
+    color: white;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  #navbar ul.mobileNav.mobileVisible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #22b9a8;
+    height: 30vh;
+    justify-content: space-evenly;
+  }
+
+  #navbar ul.mobileNav.mobileVisible li {
+    list-style-type: none;
+  }
+
+  #navbar ul.mobileNav.mobileVisible li a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  
+  .container{
+    display: flex;
+    width: 100%;
+    background-color: white;
+  }
+  
+  nav a.icon {
+    display: block;
+    margin-right: 15px;
+    color: white;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  #navbar ul.mobileNav.mobileVisible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #22b9a8;
+    height: 30vh;
+    justify-content: space-evenly;
+  }
+
+  #navbar ul.mobileNav.mobileVisible li {
+    list-style-type: none;
+  }
+
+  #navbar ul.mobileNav.mobileVisible li a {
+    text-decoration: none;
+    color: white;
+  }
+  .social-media-icons {
     width: 100%;
   }
 }
