@@ -1,0 +1,34 @@
+name: Prettier Action
+
+on: push
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.head_ref }}
+          # Make sure the value of GITHUB_TOKEN will not be persisted in repo's config
+          persist-credentials: false
+
+      - name: Commit URL
+        run: git remote set-url origin https://github-actions:${{github.token}}@github.com/rbjks/rbjks.github.io.git
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Prettify Code
+        uses: creyD/prettier_action@v4.3
+        with:
+          dry: false
+          github_token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}

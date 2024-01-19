@@ -1,0 +1,27 @@
+{
+  "name": "rbjks.github.io",
+  "private": true,
+  "description": "Access this website at https://rbjks.github.io/index.html",
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "fix": "concurrently --kill-others-on-fail --prefix-colors \"auto\" \"npm:fix:*\"",
+    "fix:prettier": "prettier --ignore-unknown --cache --write .",
+    "lint": "concurrently --prefix-colors \"auto\" \"npm:lint:*\"",
+    "lint:prettier": "prettier --ignore-unknown --cache --check .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "concurrently": "8.2.2",
+    "husky": "8.0.3",
+    "lint-staged": "15.2.0",
+    "prettier": "3.1.1",
+    "prettier-plugin-packagejson": "2.4.9"
+  },
+  "engines": {
+    "node": ">=20.0.0 <21.0.0"
+  },
+  "volta": {
+    "node": "20.10.0"
+  }
+}
