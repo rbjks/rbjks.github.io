@@ -434,17 +434,16 @@ nav ul li a:active {
 }
 
 .activities {
-    background-color: #EDC9AF;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
-    height: 100vh;
+  background-color: #edc9af;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  min-height: 100vh;
 }
 
 .activities1 {
-    margin-top: 7%;
+  margin-top: 7%;
 }
-
 
 /* Footer */
 
