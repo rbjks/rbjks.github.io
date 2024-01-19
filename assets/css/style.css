@@ -433,6 +433,18 @@ nav ul li a:active {
   margin-top: 7%;
 }
 
+.activities {
+  background-color: #edc9af;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  min-height: 100vh;
+}
+
+.activities1 {
+  margin-top: 7%;
+}
+
 /* Footer */
 
 footer { 
