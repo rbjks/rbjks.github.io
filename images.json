@@ -1,40 +1,24 @@
 {
   "images": [
     {
-      "url": "https://via.placeholder.com/300",
-      "caption": "Placeholder Image 1"
+      "url": "assets/images/Activities/3 July.jpg",
+      "caption": "3 July 2023 - Constructed a toilet for a family in GP Bhadwar"
     },
     {
-      "url": "https://via.placeholder.com/350",
-      "caption": "Placeholder Image 2"
+      "url": "assets/images/Activities/8 Aug.jpg",
+      "caption": "8 August 2023 - Delivered a sports kit in GP Minjgram"
     },
     {
-      "url": "https://via.placeholder.com/400",
-      "caption": "Placeholder Image 3"
+      "url": "assets/images/Activities/14 Dec.jpg",
+      "caption": "14 Dec 2023"
     },
     {
-      "url": "https://via.placeholder.com/450",
-      "caption": "Placeholder Image 4"
+      "url": "assets/images/Activities/18 May.jpg",
+      "caption": "18 May 2023"
     },
     {
-      "url": "https://via.placeholder.com/500",
-      "caption": "Placeholder Image 5"
-    },
-    {
-      "url": "https://via.placeholder.com/500",
-      "caption": "Placeholder Image 5"
-    },
-    {
-      "url": "https://via.placeholder.com/500",
-      "caption": "Placeholder Image 5"
-    },
-    {
-      "url": "https://via.placeholder.com/500",
-      "caption": "Placeholder Image 5"
-    },
-    {
-      "url": "https://via.placeholder.com/500",
-      "caption": "Placeholder Image 5"
+      "url": "assets/images/Activities/21 Aug.jpg",
+      "caption": "21 August 2023"
     }
   ]
 }

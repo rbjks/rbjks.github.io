@@ -49,7 +49,4 @@ body:
       description: For example reference any existing code
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        You can also join our Discord community [here]
+  
