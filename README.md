@@ -1,5 +1,5 @@
 # rbjks.github.io
-[![Open RBJKS in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/rbjks/rbjks.github.io)
+[![Open RBJKS in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rbjks/rbjks.github.io)
 
 
 Access this website at https://rbjks.github.io/index.html
