@@ -1,0 +1,14 @@
+body{
+    background-color: #edc9af;
+}
+.contact{
+    margin: 2rem 10%;
+}
+.contact-parent{
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-parent div{
+    width: 50%;
+}
