@@ -28,6 +28,16 @@ body{
 .contact-parent div em{
     font-weight: bold;
 }
+#contact-link-para{
+    margin: 20px 5px;
+}
+#contact-link{
+    padding: 10px 10px;
+    background-color: #22B9A8;
+    color: whitesmoke;
+    border-radius: 10px;
+    text-decoration: none;
+}
 
 @media (max-width: 768px) {
     .contact-parent div {
