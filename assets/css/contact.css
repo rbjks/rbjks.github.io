@@ -7,8 +7,33 @@ body{
 .contact-parent{
     padding-top: 2rem;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    gap: 15px;
+
 }
 .contact-parent div{
-    width: 50%;
+    flex: 1; /* Each child takes up equal space */
+    margin: 10px; /* Adds space between the divs */
+    text-align: center;
+    border: 2px dashed darkgrey;
+    padding: 10px;
 }
+.contact-parent div h4{
+    text-decoration: wavy underline #222;
+    margin-bottom: 15px;
+}
+.contact-parent div p{
+    margin-bottom: 10px;
+}
+.contact-parent div em{
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .contact-parent div {
+      flex: 1 1 80%; /* Forces divs to stack on top of each other */
+    }
+    .contact-parent{
+        flex-wrap: wrap;
+    }
+  }
