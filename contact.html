@@ -4,11 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RBJKS::Contact</title>
+    <title>RBJKS::Activities</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/contact.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/gallery.css" />
-    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -20,13 +18,14 @@
     <div id="navbar">
       <nav>
         <a href="/">
-        <img
-          class="logo"
-          alt="RBJKS LOGO"
-          src="./assets/images/faviconn.png"
-          loading="lazy"
-        />
+          <img
+            class="logo"
+            alt="RBJKS LOGO"
+            src="./assets/images/faviconn.png"
+            loading="lazy"
+          />
         </a>
+
         <ul>
           <!-- <li></li>  -->
           <li><a class="translate" href="/" aria-label="होम">Home</a></li>
@@ -93,40 +92,43 @@
         </li>
       </ul>
     </div>
-    <div class="mainbody">
-      <section>
-        <div class="container">
-          
-          <div class="contactForm">
-            <h2>Send a Message</h2>
-            <div class="formBox">
-              <div class="inputBox w50">
-                <input type="text" name="" required />
-                <span>First Name</span>
-              </div>
-              <div class="inputBox w50">
-                <input type="text" required />
-                <span>Last Name</span>
-              </div>
-              <div class="inputBox w50">
-                <input type="email" required />
-                <span>Email Address </span>
-              </div>
-              <div class="inputBox w50">
-                <input type="text" required />
-                <span>Mobile Number</span>
-              </div>
-              <div class="inputBox w100">
-                <textarea required></textarea>
-                <span>Write your message here...</span>
-              </div>
-              <div class="inputBox w100">
-                <input type="submit" value="Send" />
-              </div>
-            </div>
-          </div>
+
+    <div class="contact">
+      <h3 class="translate" aria-label="संपर्क">Contact Us</h3>
+      <div class="contact-parent">
+        <div class="contact-left">
+          <h4 class="translate" aria-label = "लाभार्थियों के लिए">For Beneficiaries</h4>
+          <p class="translate" aria-label = "कृपया दिए गए फ़ोन या पते पर हमसे संपर्क करें।">Please reach out to us on the given Phone or Address.</p>
+          <p>
+            <em class="translate" aria-label = "पता:">Address: </em>
+            <span class="translate" aria-label = "डाकघर जसूर, तहसील - नूरपुर, जिला - कांगड़ा, हिमाचल प्रदेश, 176201">PO Jassur, Tehsil - Nurpur, District - Kangra, HP, 176201.</span>
+          </p>
+          <p> 
+            <em  class="translate" aria-label = "फ़ोन:">Phone: </em> 
+            <span class="translate" aria-label = "+९१ - ९४१८१५१०७४ / ८६७५३००००९">+91 - 9418151074 / 8675300009</span> 
+          </p>
+          <p> 
+            <em class="translate" aria-label = "ईमेल:">Email: </em> 
+            <span>RBJKS.info@gmail.com</span><br/>
+            <span class="translate" aria-label = "(कृपया ध्यान दें कि हम हमेशा ईमेल पर समय पर जवाब नहीं दे सकते।)">(Please note that we can't always respond in time over email.)</span>
+          </p>
         </div>
-      </section>
+        <div class="contact-right">
+          <h4 class="translate" aria-label = "दाताओं के लिए">For Donors</h4>
+          <p class="translate" aria-label = "कृपया नीचे लिंक किया गया Google फॉर्म भरें।">
+            Please fill out the below linked Google Form. 
+          </p>
+          <p id="contact-link-para" >
+            <a
+              href="https://docs.google.com/forms/d/1eY9o2jiLI5xOAvG7M4RFDCPbn3879t4l8uwZ3T5N3Hs"
+              target="_blank" class="translate" id="contact-link" aria-label = "गूगल फॉर्म लिंक"
+              >Link to the Google Form</a>
+          </p>
+          <p class="translate" aria-label = "जरूरत पड़ने पर आप हमसे फोन पर संपर्क कर सकते हैं।">
+            You can also contact us by phone, if needed.
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="footer">
@@ -154,18 +156,22 @@
           <p>Contact Us</p>
           <div class="icons">
             <a href="https://twitter.com/a_bsays" target="_blank"
-              ><img src="./assets/images/twitter.svg" alt="twitter"
+              ><img
+                src="./assets/images/twitter.svg"
+                alt="twitter"
+                loading="lazy"
             /></a>
-            <!-- <a href="#" target="_blank"><img src="./assets/images/instagram.svg" alt="instagram"></a> -->
+            <!-- <a href="#" target="_blank"><img src="./assets/images/instagram.svg" alt="instagram" loading="lazy"></a> -->
             <a href="https://www.facebook.com/akil.bakhshi/" target="_blank"
-              ><img src="./assets/images/facebook.svg" alt="facebook"
+              ><img
+                src="./assets/images/facebook.svg"
+                alt="facebook"
+                loading="lazy"
             /></a>
           </div>
         </section>
       </footer>
     </div>
-
-    <script src="script/main.js"></script>
-    
   </body>
+  <script src="assets/script/main.js"></script>
 </html>
