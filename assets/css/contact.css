@@ -18,7 +18,7 @@ body{
     border: 2px dashed darkgrey;
     padding: 10px;
 }
-.contact-parent div h4{
+.contact-parent div h3{
     text-decoration: wavy underline #222;
     margin-bottom: 15px;
 }
