@@ -524,13 +524,27 @@ footer {
     display: none;
   }
 
-  #navbar ul.mobileNav.mobileVisible {
+
+  #navbar .mobileNav.mobileVisible {
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #22b9a8;
-    height: 30vh;
+    height: 100vh;
+    z-index: 100;
+    top: 0px;
+    width: 250px;
+    right: 0px;
     justify-content: space-evenly;
+  }
+  #navbar ul.mobileNav{
+    position: relative;
+  }
+
+  #hamburger{
+    position: relative;
+    z-index: 200;
   }
 
   #navbar ul.mobileNav.mobileVisible li {
