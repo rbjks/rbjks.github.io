@@ -10,7 +10,7 @@
     "lint": "concurrently --prefix-colors \"auto\" \"npm:lint:*\"",
     "lint:prettier": "prettier --ignore-unknown --cache --check .",
     "prepare": "husky install"
-  },
+  }, 
   "devDependencies": {
     "concurrently": "8.2.2",
     "husky": "8.0.3",

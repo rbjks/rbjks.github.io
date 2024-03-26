@@ -374,6 +374,10 @@ nav ul li a:active {
 }
 
 @media (max-width: 950px) {
+  .introduction {
+    flex-direction: column;
+    padding-top: 15px;
+  }
   .container {
     width: 90%;
     padding: 30px 40px 40px 35px;
@@ -386,6 +390,10 @@ nav ul li a:active {
   .intro-text {
     margin-top: 5px;
   }
+
+  .intro-image {
+    margin-top: 0;
+  }
   
 }
 
@@ -395,9 +403,9 @@ nav ul li a:active {
     margin: 40px 0;
     height: 100%;
   }
-  .intro-text {
-    margin-top: 140px;
-  }
+  /* .intro-text { */
+    /* margin-top: 140px; */
+  /* } */
   .container .content {
     flex-direction: column-reverse;
   }
@@ -416,7 +424,7 @@ nav ul li a:active {
     margin-left: 0;
   }
   .intro-image {
-    margin-top: 195px;
+    /* margin-top: 195px; */
     position: relative;
   }
 }
