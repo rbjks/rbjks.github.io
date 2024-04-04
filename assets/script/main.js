@@ -17,6 +17,11 @@ function changelanguage() {
   prefLanguage = prefLanguage == 'en' ? 'hi' : 'en';
   htmlParent.lang = prefLanguage;
   translateElements.forEach((el) => swap(el));
+  if (navbarlist.className === 'mobileNav') {
+    navbarlist.className += ' mobileVisible';
+  } else {
+    navbarlist.className = 'mobileNav';
+  }
   /*
     prefLanguage = lang;
     if(prefLanguage == 'en'){

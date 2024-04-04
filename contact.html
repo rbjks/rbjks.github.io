@@ -1,187 +1,138 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RBJKS::Contact</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/contact.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="icon" type="image/png" href="/assets/images/faviconn.png" />
-  </head>
-  <body>
-    <div id="navbar">
-      <nav>
-        <a href="/">
-          <img
-            class="logo"
-            alt="RBJKS LOGO"
-            src="./assets/images/faviconn.png"
-            loading="lazy"
-          />
-        </a>
 
-        <ul>
-          <!-- <li></li>  -->
-          <li><a class="translate" href="/" aria-label="होम">Home</a></li>
-          <li>
-            <a
-              class="translate"
-              href="/activities.html"
-              target="_self"
-              aria-label="प्रयास"
-              >Activities</a
-            >
-          </li>
-          <li>
-            <a
-              class="translate"
-              href="/contact.html"
-              target="_self"
-              aria-label="सम्पर्क करें"
-              >Contact Us</a
-            >
-          </li>
-          <li>
-            <a
-              class="translate"
-              href="#"
-              aria-label="Read in English"
-              onclick="changelanguage()"
-              >हिन्दी में देखिये</a
-            >
-          </li>
-        </ul>
-        <a href="javascript:void(0);" class="icon" onclick="toggleMobileNav()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </nav>
-      <ul class="mobileNav">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RBJKS::Contact</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/contact.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" type="image/png" href="/assets/images/faviconn.png" />
+</head>
+
+<body>
+  <div id="navbar">
+    <nav>
+      <a href="/">
+        <img class="logo" alt="RBJKS LOGO" src="./assets/images/faviconn.png" loading="lazy" />
+      </a>
+
+      <ul>
+        <!-- <li></li>  -->
         <li><a class="translate" href="/" aria-label="होम">Home</a></li>
         <li>
-          <a
-            class="translate"
-            href="/activities.html"
-            target="_self"
-            aria-label="प्रयास"
-            >Activities</a
-          >
+          <a class="translate" href="/activities.html" target="_self" aria-label="प्रयास">Activities</a>
         </li>
         <li>
-          <a
-            class="translate"
-            href="/contact.html"
-            target="_self"
-            aria-label="सम्पर्क करें"
-            >Contact Us</a
-          >
+          <a class="translate" href="/contact.html" target="_self" aria-label="सम्पर्क करें">Contact Us</a>
         </li>
         <li>
-          <a
-            class="translate"
-            href="#"
-            aria-label="Read in English"
-            onclick="changelanguage()"
-            >हिन्दी में देखिये</a
-          >
+          <a class="translate" href="#" aria-label="Read in English" onclick="changelanguage()">हिन्दी में देखिये</a>
         </li>
       </ul>
-    </div>
+      <svg id="hamburger" onclick="toggleMobileNav()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+        height="24" color="#000000" fill="none">
+        <path d="M4 5L20 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M4 12L20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M4 19L20 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </nav>
+    <ul class="mobileNav">
+      <li><a class="translate" href="/" aria-label="होम">Home</a></li>
+      <li>
+        <a class="translate" href="/activities.html" target="_self" aria-label="प्रयास">Activities</a>
+      </li>
+      <li>
+        <a class="translate" href="/contact.html" target="_self" aria-label="सम्पर्क करें">Contact Us</a>
+      </li>
+      <li>
+        <a class="translate" href="#" aria-label="Read in English" onclick="changelanguage()">हिन्दी में देखिये</a>
+      </li>
+    </ul>
+  </div>
 
-    <div class="contact">
-      <h2 class="translate" aria-label="संपर्क">Contact Us</h2>
-      <div class="contact-parent">
-        <div class="contact-left">
-          <h3 class="translate" aria-label = "लाभार्थियों के लिए">For Beneficiaries</h3>
-          <p class="translate" aria-label = "कृपया दिए गए फ़ोन या पते पर हमसे संपर्क करें।">Please reach out to us on the given Phone or Address.</p>
-          <p>
-            <em class="translate" aria-label = "पता:">Address: </em>
-            <span class="translate" aria-label = "डाकघर जसूर, तहसील - नूरपुर, जिला - कांगड़ा, हिमाचल प्रदेश, 176201">PO Jassur, Tehsil - Nurpur, District - Kangra, HP, 176201.</span>
-          </p>
-          <p> 
-            <em  class="translate" aria-label = "फ़ोन:">Phone: </em> 
-            <span class="translate" aria-label = "+९१ - ९४१८१५१०७४ / ८६७५३००००९">+91 - 9418151074 / 8675300009</span> 
-          </p>
-          <p> 
-            <em class="translate" aria-label = "ईमेल:">Email: </em> 
-            <span>RBJKS.info@gmail.com</span><br/>
-            <span class="translate" aria-label = "(कृपया ध्यान दें कि हम हमेशा ईमेल पर समय पर जवाब नहीं दे सकते।)">(Please note that we can't always respond in time over email.)</span>
-          </p>
+  <div class="contact">
+    <h2 class="translate" aria-label="संपर्क">Contact Us</h2>
+    <div class="contact-parent">
+      <div class="contact-left">
+        <h3 class="translate" aria-label="लाभार्थियों के लिए">For Beneficiaries</h3>
+        <p class="translate" aria-label="कृपया दिए गए फ़ोन या पते पर हमसे संपर्क करें।">Please reach out to us on the
+          given Phone or Address.</p>
+        <p>
+          <em class="translate" aria-label="पता:">Address: </em>
+          <span class="translate" aria-label="डाकघर जसूर, तहसील - नूरपुर, जिला - कांगड़ा, हिमाचल प्रदेश, 176201">PO
+            Jassur, Tehsil - Nurpur, District - Kangra, HP, 176201.</span>
+        </p>
+        <p>
+          <em class="translate" aria-label="फ़ोन:">Phone: </em>
+          <span class="translate" aria-label="+९१ - ९४१८१५१०७४ / ८६७५३००००९">+91 - 9418151074 / 8675300009</span>
+        </p>
+        <p>
+          <em class="translate" aria-label="ईमेल:">Email: </em>
+          <span>RBJKS.info@gmail.com</span><br />
+          <span class="translate" aria-label="(कृपया ध्यान दें कि हम हमेशा ईमेल पर समय पर जवाब नहीं दे सकते।)">(Please
+            note that we can't always respond in time over email.)</span>
+        </p>
+      </div>
+      <div class="contact-right">
+        <h3 class="translate" aria-label="दाताओं के लिए">For Donors</h3>
+        <h4 class="translate" aria-label="दान विवरण"> Donation Details</h4>
+        <div>
+          <p class="translate" aria-label="बैंक: भारतीय स्टेट बैंक, जसूर">Bank: State Bank of India, Jassur</p>
+          <p class="translate" aria-label="खाते का नाम: रणजीत बख्शी जनकल्याण फाउंडेशन">Account Name: Ranjeet Bakshi
+            Jankalyan Foundation</p>
+          <p class="translate" aria-label="खाता क्रमांक: 40354212801">Account Number: 40354212801</p>
+          <p class="translate" aria-label="आईएफएससी कोड: SBIN0002369">IFSC Code: SBIN0002369</p>
+          <p>Gpay: 9418151074</p>
+          <p>UPI: 9418151074@upi</p>
         </div>
-        <div class="contact-right">
-          <h3 class="translate" aria-label = "दाताओं के लिए">For Donors</h3>
-          <h4 class = "translate" aria-label="दान विवरण"> Donation Details</h4>
-          <div>
-            <p class="translate" aria-label="बैंक: भारतीय स्टेट बैंक, जसूर">Bank: State Bank of India, Jassur</p>
-            <p class="translate" aria-label="खाते का नाम: रणजीत बख्शी जनकल्याण फाउंडेशन">Account Name: Ranjeet Bakshi Jankalyan Foundation</p>
-            <p class="translate" aria-label="खाता क्रमांक: 40354212801">Account Number: 40354212801</p>
-            <p class="translate" aria-label="आईएफएससी कोड: SBIN0002369">IFSC Code: SBIN0002369</p>
-            <p>Gpay: 9418151074</p>
-            <p>UPI: 9418151074@upi</p>
-          </div>
-          <h4 class = "translate" aria-label="हम तक कैसे पहुंचें?">How to get in touch with us?</h4>
-          <br /> <!-- I hate this but better than adding CSS code right? -->
-          <p class="translate" aria-label = "कृपया नीचे लिंक किया गया Google फॉर्म भरें।">
-            Please fill out the below linked Google Form. 
-          </p>
-          <p id="contact-link-para" >
-            <a
-              href="https://docs.google.com/forms/d/1eY9o2jiLI5xOAvG7M4RFDCPbn3879t4l8uwZ3T5N3Hs"
-              target="_blank" class="translate" id="contact-link" aria-label = "गूगल फॉर्म लिंक"
-              >Link to the Google Form</a>
-          </p>
-          <p class="translate" aria-label = "जरूरत पड़ने पर आप हमसे फोन पर संपर्क कर सकते हैं।">
-            You can also contact us by phone, if needed.
-          </p>
-        </div>
+        <h4 class="translate" aria-label="हम तक कैसे पहुंचें?">How to get in touch with us?</h4>
+        <br /> <!-- I hate this but better than adding CSS code right? -->
+        <p class="translate" aria-label="कृपया नीचे लिंक किया गया Google फॉर्म भरें।">
+          Please fill out the below linked Google Form.
+        </p>
+        <p id="contact-link-para">
+          <a href="https://docs.google.com/forms/d/1eY9o2jiLI5xOAvG7M4RFDCPbn3879t4l8uwZ3T5N3Hs" target="_blank"
+            class="translate" id="contact-link" aria-label="गूगल फॉर्म लिंक">Link to the Google Form</a>
+        </p>
+        <p class="translate" aria-label="जरूरत पड़ने पर आप हमसे फोन पर संपर्क कर सकते हैं।">
+          You can also contact us by phone, if needed.
+        </p>
       </div>
     </div>
+  </div>
 
-    <div class="footer">
-      <footer>
-        <section class="about flex-col">
-          <img
-            class="logo"
-            alt="RBJKS LOGO"
-            src="./assets/images/faviconn.png"
-            loading="lazy"
-          />
-          <p class="about--address">
-            PO Jassur, Tehsil - Nurpur, District - Kangra, HP, 176201.
-          </p>
-          <p class="about--contact">
-            <img src="./assets/images/phone.svg" alt="phone" loading="lazy" />
-            +91 - 9418151074 / 8675300009
-          </p>
-          <p class="about--mail">
-            <img src="./assets/images/mail.svg" alt="email" loading="lazy" />
-            RBJKS.info@gmail.com
-          </p>
-        </section>
-        <section class="social-media-icons flex-col">
-          <p>Contact Us</p>
-          <div class="icons">
-            <a href="https://twitter.com/a_bsays" target="_blank"
-              ><img
-                src="./assets/images/twitter.svg"
-                alt="twitter"
-                loading="lazy"
-            /></a>
-            <!-- <a href="#" target="_blank"><img src="./assets/images/instagram.svg" alt="instagram" loading="lazy"></a> -->
-            <a href="https://www.facebook.com/akil.bakhshi/" target="_blank"
-              ><img
-                src="./assets/images/facebook.svg"
-                alt="facebook"
-                loading="lazy"
-            /></a>
-          </div>
-        </section>
-      </footer>
-    </div>
-  </body>
-  <script src="assets/script/main.js"></script>
+  <div class="footer">
+    <footer>
+      <section class="about flex-col">
+        <img class="logo" alt="RBJKS LOGO" src="./assets/images/faviconn.png" loading="lazy" />
+        <p class="about--address">
+          PO Jassur, Tehsil - Nurpur, District - Kangra, HP, 176201.
+        </p>
+        <p class="about--contact">
+          <img src="./assets/images/phone.svg" alt="phone" loading="lazy" />
+          +91 - 9418151074 / 8675300009
+        </p>
+        <p class="about--mail">
+          <img src="./assets/images/mail.svg" alt="email" loading="lazy" />
+          RBJKS.info@gmail.com
+        </p>
+      </section>
+      <section class="social-media-icons flex-col">
+        <p>Contact Us</p>
+        <div class="icons">
+          <a href="https://twitter.com/a_bsays" target="_blank"><img src="./assets/images/twitter.svg" alt="twitter"
+              loading="lazy" /></a>
+          <!-- <a href="#" target="_blank"><img src="./assets/images/instagram.svg" alt="instagram" loading="lazy"></a> -->
+          <a href="https://www.facebook.com/akil.bakhshi/" target="_blank"><img src="./assets/images/facebook.svg"
+              alt="facebook" loading="lazy" /></a>
+        </div>
+      </section>
+    </footer>
+  </div>
+</body>
+<script src="assets/script/main.js"></script>
+
 </html>
