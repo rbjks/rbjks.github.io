@@ -450,7 +450,7 @@ nav ul li a:active {
 footer { 
   display: flex;
   justify-content: space-around;
-  background-color: black;
+  background-color: #22b9a8;
   color: white;
   padding: 1rem 0;
   font-weight: 600;
@@ -479,7 +479,7 @@ footer .logofoot{
 .about .about--contact{
   font-family: Helvetica, sans-serif;
   font-size: large;
-  background-color: rgb(0, 145, 255);
+  background-color: #2f3c45;
   padding: 10px;
   border-radius: 50px;
   color: white;
@@ -489,7 +489,7 @@ footer .logofoot{
   font-family: Helvetica, sans-serif;
   /* font-size: large; */
   /* font-weight: 1000px; */
-  background-color: rgb(0, 145, 255);
+  background-color: #2f3c45;
   padding: 10px;
   border-radius: 50px;
   color: white;
@@ -526,9 +526,11 @@ footer .logofoot{
 .icons img {
   height: 1.5rem;
   width: 1.5rem;
-  background-color: rgb(0, 145, 255);
+  background-color: white;
   border-radius: 80px;
   padding: 10px;
+  /* color: white; */
+  /* filter: invert(1); */
 }
 
 /* Media queries */
