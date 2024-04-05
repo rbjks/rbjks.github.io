@@ -520,9 +520,15 @@ footer {
   display: flex;
   justify-content: space-around;
   background-color: #22b9a8;
+  color: white;
   padding: 1rem 0;
   font-weight: 600;
   width: 100%;
+}
+
+footer .logofoot{
+  width: 1000px;
+  height: 100px;
 }
 
 .flex-col {
@@ -532,6 +538,25 @@ footer {
   align-items: flex-start;
   text-align: left;
   gap: 1rem;
+}
+
+.about .about--address{
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-size: 30px;
+  width: 500px;
+}
+.about .about--contact{
+  font-family: Helvetica, sans-serif;
+  font-size: large;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+}
+.about .about--mail{
+  font-family: Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
 }
 
 .about p {
@@ -552,16 +577,24 @@ footer {
 
 .social-media-icons {
   font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-size: 30px;
 }
 
 .icons {
   display: flex;
   gap: 1rem;
+  
 }
 
 .icons img {
   height: 1.5rem;
   width: 1.5rem;
+  background-color: white;
+  border-radius: 80px;
+  padding: 10px;
+  /* color: white; */
+  /* filter: invert(1); */
 }
 
 /* Media queries */
