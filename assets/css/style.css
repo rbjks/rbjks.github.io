@@ -70,7 +70,6 @@ nav ul li::after {
   height: 4px;
   bottom: -9px;
   left: 0;
-  background-color: #000;
   background-color: #fff;
   /* transform-origin: bottom right; */
   transition: transform 0.25s ease-out;
@@ -386,6 +385,33 @@ nav ul li a:active {
   .intro-text {
     margin-top: 5px;
   }
+
+  nav ul li::after {
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: -9px;
+    left: 0;
+    background-color: #fff;
+    /* transform-origin: bottom right; */
+    transition: transform 0.25s ease-out;
+  }
+
+  nav ul li:hover::after {
+    transform: scaleX(0.7);
+    /* transform-origin: bottom left; */
+  }
+  
+  nav ul li:hover {
+    transform: scale(1.1);
+  }
+  
+  nav ul li a:active {
+    color: #fff;
+  }
   
 }
 
@@ -418,6 +444,49 @@ nav ul li a:active {
   .intro-image {
     margin-top: 195px;
     position: relative;
+  }
+
+  nav ul li::after {
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: -9px;
+    left: 0;
+    background-color: #fff;
+    /* transform-origin: bottom right; */
+    transition: transform 0.25s ease-out;
+  }
+
+
+  nav ul li::after {
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: -9px;
+    left: 0;
+    background-color: #fff;
+    /* transform-origin: bottom right; */
+    transition: transform 0.25s ease-out;
+  }
+
+
+  nav ul li:hover::after {
+    transform: scaleX(0.7);
+    /* transform-origin: bottom left; */
+  }
+  
+  nav ul li:hover {
+    transform: scale(1.1);
+  }
+  
+  nav ul li a:active {
+    color: #fff;
   }
 }
 
@@ -573,5 +642,33 @@ footer .logofoot{
   #navbar ul.mobileNav.mobileVisible li a {
     text-decoration: none;
     color: white;
+  }
+
+  #navbar .mobileNav li::after {
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: -9px;
+    left: 0;
+    background-color: #fff;
+    /* transform-origin: bottom right; */
+    transition: transform 0.25s ease-out;
+  }
+
+
+  #navbar .mobileNav  li:hover::after {
+    transform: scaleX(0.7);
+    /* transform-origin: bottom left; */
+  }
+  
+  #navbar .mobileNav  li:hover {
+    transform: scale(1.1);
+  }
+  
+  #navbar .mobileNav li a:active {
+    color: #fff;
   }
 }
