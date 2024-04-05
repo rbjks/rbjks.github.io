@@ -479,17 +479,12 @@ footer .logofoot{
 .about .about--contact{
   font-family: Helvetica, sans-serif;
   font-size: large;
-  background-color: #2f3c45;
   padding: 10px;
   border-radius: 50px;
   color: white;
-  /* font-weight: 1000px; */
 }
 .about .about--mail{
   font-family: Helvetica, sans-serif;
-  /* font-size: large; */
-  /* font-weight: 1000px; */
-  background-color: #2f3c45;
   padding: 10px;
   border-radius: 50px;
   color: white;
