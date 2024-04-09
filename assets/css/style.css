@@ -545,6 +545,10 @@ footer {
   height: 1.5rem;
   padding-right: 5px;
 }
+.about .logo{
+  height: 45px;
+  width: 45px;
+}
 
 .about--address {
   width: 50%;
@@ -571,6 +575,10 @@ footer {
     align-items: center;
     text-align: center;
     word-break: break-all;
+  }
+  .about--address{
+    white-space:pre-wrap;
+    word-break:break-word;
   }
 
   .footer .flex-col {
