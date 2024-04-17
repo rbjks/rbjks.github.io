@@ -536,8 +536,7 @@ footer {
 
 .about p {
   opacity: 0.7;
-  display: flex;
-  align-items: center;
+  text-align: center;
 }
 
 .about img {
@@ -577,7 +576,6 @@ footer {
     word-break: break-all;
   }
   .about--address{
-    white-space:pre-wrap;
     word-break:break-word;
   }
 
