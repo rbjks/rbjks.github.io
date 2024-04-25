@@ -26,9 +26,12 @@ Preferred colors for the website
 ## Repo Rater
 
 
-| Badge | Description |
-|-------|-------------|
-| [![Repo Rater Badge](https://example.com/flat-badge.png)](https://example.com/repo-rater-guide) | This badge signifies our presence on Repo Rater. Click to view the guide on achieving the badge status. |
+| Rater                | Rating            |
+|----------------------|-------------------|
+| <div style="display: flex; align-items: center;"><div style="background-color: #ccc; padding: 5px; border-radius: 5px;">adityaraute</div><div style="background-color: #5cb85c; color: white; padding: 5px; margin-left: 5px; border-radius: 5px;">★★★★☆</div></div> | <div style="background-color: #5cb85c; color: white; padding: 5px; border-radius: 5px;">4/5</div> |
+| <div style="display: flex; align-items: center;"><div style="background-color: #ccc; padding: 5px; border-radius: 5px;">maZahaca</div><div style="background-color: #5cb85c; color: white; padding: 5px; margin-left: 5px; border-radius: 5px;">★★★★★</div></div> | <div style="background-color: #5cb85c; color: white; padding: 5px; border-radius: 5px;">5/5</div> |
+| <div style="display: flex; align-items: center;"><div style="background-color: #ccc; padding: 5px; border-radius: 5px;">mitegab</div><div style="background-color: #5cb85c; color: white; padding: 5px; margin-left: 5px; border-radius: 5px;">★★★★☆</div></div> | <div style="background-color: #5cb85c; color: white; padding: 5px; border-radius: 5px;">4/5</div> |
+| <div style="display: flex; align-items: center;"><div style="background-color: #ccc; padding: 5px; border-radius: 5px;">Zaid-maker</div><div style="background-color: #5cb85c; color: white; padding: 5px; margin-left: 5px; border-radius: 5px;">★★★★★</div></div> | <div style="background-color: #5cb85c; color: white; padding: 5px; border-radius: 5px;">5/5</div> |
 
 
 
