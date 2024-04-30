@@ -604,12 +604,26 @@ footer {
     display: none;
   }
 
+  .hamburger{
+    /* display: block; */
+    position: absolute;
+    right: 0px;
+    padding-right: 10px;
+    z-index: 20;
+  }
+
   #navbar ul.mobileNav.mobileVisible {
     display: flex;
+    font-size: large;
     flex-direction: column;
     align-items: center;
     background-color: #22b9a8;
-    height: 30vh;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 10;
+    height: 100vh;
+    width: 250px;
     justify-content: space-evenly;
   }
 
