@@ -526,6 +526,7 @@ footer {
   padding: 1rem 0;
   font-weight: 600;
   width: 100%;
+  padding: 30px 0px;
 }
 
 .flex-col {
@@ -534,7 +535,14 @@ footer {
   justify-content: center;
   align-items: flex-start;
   text-align: left;
-  gap: 1rem;
+  gap: 25px;
+}
+
+.foot1{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
 }
 
 .about p {
@@ -543,14 +551,34 @@ footer {
   align-items: center;
 }
 
-.about img {
-  width: 1.5rem;
-  height: 1.5rem;
+.about .logo {
+  width: 50px;
+  height: 50px;
   padding-right: 5px;
 }
 
 .about--address {
+  font-size: xx-large;
   width: 50%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about--contact{
+  display: flex;
+  gap: 20px;
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  font-size: 16px;
+}
+
+.about--mail{
+  display: flex;
+  gap: 20px;
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  font-size: 16px;
 }
 
 .social-media-icons {
@@ -559,12 +587,28 @@ footer {
 
 .icons {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
 }
 
 .icons img {
   height: 1.5rem;
   width: 1.5rem;
+  background-color: white;
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.about .abouticons {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+  background-color: rgba(255, 255, 255, 0.322);
+  /* border: 1px solid #edc9af; */
+  padding: 8px;
+  border-radius: 40px;
+  /* filter: invert(1); */
 }
 
 /* Media queries */
@@ -579,19 +623,27 @@ footer {
   
   footer {
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     word-break: break-all;
+    padding: 40px 10px;
+    gap: 40px;
   }
 
   .footer .flex-col {
-    align-items: center;
     margin-bottom: 1em;
   }
 
+  .social-media-icons {
+    font-size: 1.5rem;
+    padding: 0px 55px;
+    display: flex;
+  }
+
+
   .about--address {
-    width: 100%;
-    text-align: center;
+    width: 80%;
+    text-align: start;
   }
 
   nav a.icon {
