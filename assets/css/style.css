@@ -533,7 +533,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   text-align: left;
   gap: 25px;
 }
@@ -549,6 +549,7 @@ footer {
   opacity: 0.7;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .about .logo {
@@ -558,31 +559,31 @@ footer {
 }
 
 .about--address {
-  font-size: xx-large;
+  font-size: x-large;
   width: 50%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .about--contact{
   display: flex;
-  gap: 20px;
+  gap: 12px;
   margin-left: 5px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 1000;
+  font-weight: 800;
   font-size: 16px;
 }
 
 .about--mail{
   display: flex;
-  gap: 20px;
+  gap: 12px;
   margin-left: 5px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 1000;
+  font-weight: 800;
   font-size: 16px;
 }
 
 .social-media-icons {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .icons {
@@ -595,16 +596,18 @@ footer {
 .icons img {
   height: 1.5rem;
   width: 1.5rem;
-  background-color: rgb(255, 255, 255);
-  padding: 6px;
+  /* background-color: rgb(255, 255, 255); */
+  padding: 8px;
   border-radius: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.44);
 }
 
 .about .abouticons {
   width: 20px;
   height: 20px;
   padding-right: 5px;
-  background-color: rgba(255, 255, 255, 0.322);
+  border: 1px solid rgba(128, 128, 128, 0.44);
+  /* background-color: rgba(255, 255, 255, 0.322); */
   padding: 8px;
   border-radius: 40px;
 }
