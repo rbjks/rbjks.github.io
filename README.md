@@ -1,3 +1,13 @@
+[![RBJKS NGO](assets/images/hero.png)](https://rbjks.github.io/index.html)
+
+[![RepoRater](https://repo-rater.eddiehub.io/api/badge?owner=rbjks&name=rbjks.github.io)](https://repo-rater.eddiehub.io/rate?owner=rbjks&name=rbjks.github.io)
+[![Facebook:](https://icons8.com/icon/118468/facebook)](https://www.facebook.com/akil.bakhshi/)
+[![Twitter](https://icons8.com/icon/107615/twitter-squared)](https://twitter.com/a_bsays?lang=en)
+
+
+
+
+
 # [RBJKS NGO](https://rbjks.github.io/index.html)
 
 Welcome to the RBJKS (Ranjeet Bakhshi Jan Kalyan Sabha) NGO Project! Our mission is to address local community issues in Nagpur, Himachal Pradesh, India, through organic crowdfunding initiatives.
@@ -15,7 +25,6 @@ RBJKS, a distinguished non-profit organization headquartered in Nagpur, Himachal
 
 Our approach is rooted in the philosophy of organic crowdfunding, harnessing the collective power of grassroots initiatives and community-driven solutions. By mobilizing resources and fostering collaboration among diverse stakeholders, we aim to create lasting impact and positive change that resonates throughout our community.
 
-
 ## Mission
 
 Our NGO actively engages in a variety of initiatives and crowdfunding campaigns aimed at providing support and opportunities for those in lower-economic and social backgrounds. By organizing community events, educational workshops, and resource-sharing platforms, we aim to empower individuals to take charge of their own futures and create positive change to the world.
@@ -30,5 +39,6 @@ We warmly invite individuals who share our vision and passion for community empo
 
   - **Email**: RBJKS.info@gmail.com
   - **GitHub:** [RBJKS GitHub](https://github.com/rbjks)
-  - **Address:** PO Jassur, Tehsil - Nurpur, District - Kangra, HP, 176201.
+  - **Address:** PO: Jassur, Tehsil - Nurpur, District - Kangra, HP, 176201.
   - **Call us:** +91 - 9418151074 / 8675300009
+
