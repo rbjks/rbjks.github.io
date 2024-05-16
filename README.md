@@ -1,9 +1,8 @@
 [![RBJKS NGO](assets/images/hero.png)](https://rbjks.github.io/index.html)
 
-[![RepoRater](https://repo-rater.eddiehub.io/api/badge?owner=rbjks&name=rbjks.github.io)](https://repo-rater.eddiehub.io/rate?owner=rbjks&name=rbjks.github.io)
-[![Facebook:](https://icons8.com/icon/118468/facebook)](https://www.facebook.com/akil.bakhshi/)
-[![Twitter](https://icons8.com/icon/107615/twitter-squared)](https://twitter.com/a_bsays?lang=en)
-
+[![RepoRater Badge](https://repo-rater.eddiehub.io/api/badge?owner=rbjks&name=rbjks.github.io)](https://repo-rater.eddiehub.io/rate?owner=rbjks&name=rbjks.github.io)
+[![Facebook Badge](https://img.shields.io/badge/Facebook-Profile-blue?style=flat&logo=facebook&link=https%3A%2F%2Fwww.facebook.com%2Fakil.bakhshi%2F)](https://www.facebook.com/akil.bakhshi/)
+[![Twitter Badge](https://img.shields.io/badge/Twitter-Profile-blue?style=flat&logo=twitter&link=https%3A%2F%2Ftwitter.com%2Fa_bsays)](https://twitter.com/a_bsays)
 
 
 
@@ -41,4 +40,3 @@ We warmly invite individuals who share our vision and passion for community empo
   - **GitHub:** [RBJKS GitHub](https://github.com/rbjks)
   - **Address:** PO: Jassur, Tehsil - Nurpur, District - Kangra, HP, 176201.
   - **Call us:** +91 - 9418151074 / 8675300009
-
