@@ -29,7 +29,7 @@ Our NGO is actively involved in various initiatives and crowdfunding campaigns, 
 
 ## Get Involved
 
-Welcome, wonderful contributor! We're thrilled that you're interested in lending a hand to our project. Here are some simple guidelines to make your contribution process as smooth as possible:
+We're absolutely thrilled that you're interested in joining our project. Below, you'll find straightforward guidelines to ensure your contribution journey is as smooth as possible:
 
   - **Get Involved:** Dive right in! Look through our list of issues and find one that sparks your interest. Feel free to ask questions or seek clarification if needed.
 
