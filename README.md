@@ -15,6 +15,7 @@ Welcome to the RBJKS (Ranjeet Bakhshi Jan Kalyan Sabha) NGO Project! Our mission
 - [About](#about)
 - [Mission](#mission)
 - [Get Involved](#get-involved)
+- [Preferred Colors](#Preferred-Colors)
 - [Steps for contributing](#Steps-for-contributing)
 - [Contact Us](#contact-us)
 
@@ -44,7 +45,17 @@ Welcome, wonderful contributor! We're thrilled that you're interested in lending
 
   - **Learning and Growing:** Remember, we're all here to learn and grow together. Don't hesitate to reach out if you need assistance or guidance along the way.
 
+## Preferred Colors
 
+- **Emerald** (#22B9A8)
+
+  ![Emerald](https://user-images.githubusercontent.com/115361239/220578047-1ed3c681-0282-4b1e-85bd-66e86b1344bd.png)
+- **Deep Saffron** (#FF9933)
+
+  ![Deep Saffron](https://user-images.githubusercontent.com/115361239/220579735-fb87b37d-67f4-406c-8188-2d42f29f9847.png)
+- **Desert Sand** (#EDC9AF)
+
+  ![Desert Sand](https://user-images.githubusercontent.com/115361239/220578344-261f5716-3908-427b-9b17-a5e3215a18c6.png)
 
 
 ## ▶️ Steps for contributing :
@@ -86,7 +97,7 @@ git checkout -b <branch-name>
 
 For example:
 
-```bash
+```
 git checkout -b add-new-feature
 ```
 
