@@ -12,10 +12,11 @@ Welcome to the RBJKS (Ranjeet Bakhshi Jan Kalyan Sabha) NGO Project! Our mission
 
 ## Table of Contents
 
-  - About
-  - Mission
-  - Get Involved
-  - Contact
+- [About](#about)
+- [Mission](#mission)
+- [Get Involved](#get-involved)
+- [Steps for contributing](#Steps-for-contributing)
+- [Contact Us](#contact-us)
 
 ## About
 
@@ -29,21 +30,20 @@ Our NGO is actively involved in various initiatives and crowdfunding campaigns, 
 
 Welcome, wonderful contributor! We're thrilled that you're interested in lending a hand to our project. Here are some simple guidelines to make your contribution process as smooth as possible:
 
-  - Get Involved: Dive right in! Look through our list of issues and find one that sparks your interest. Feel free to ask questions or seek clarification if needed.
+  - **Get Involved:** Dive right in! Look through our list of issues and find one that sparks your interest. Feel free to ask questions or seek clarification if needed.
 
-  - Claiming Issues: Once you've found an issue you'd like to tackle, leave a comment to claim it. Our friendly team will then assign it to you.
+  - **Claiming Issues:** Once you've found an issue you'd like to tackle, leave a comment to claim it. Our friendly team will then assign it to you.
 
-  - First-Come, First-Served: We operate on a first-come, first-served basis. Don't worry if someone else is already working on an issue; there's always room for collaboration!
+  - **First-Come, First-Served:** We operate on a first-come, first-served basis. Don't worry if someone else is already working on an issue; there's always room for collaboration!
 
-  - Creating Issues: Can't find an issue that matches what you'd like to work on? No problem! Open a new issue and describe your proposal. We'll review it and get back to you.
+  - **Creating Issues:** Can't find an issue that matches what you'd like to work on? No problem! Open a new issue and describe your proposal. We'll review it and get back to you.
 
-  - Respecting Assignments: Please avoid working on issues that are already assigned to someone else. Let's ensure everyone has the opportunity to contribute.
+  - **Respecting Assignments:** Please avoid working on issues that are already assigned to someone else. Let's ensure everyone has the opportunity to contribute.
 
-  - Submitting Pull Requests: Once you've completed your changes, submit a pull request. We'll review it with care and provide feedback if necessary.
+  - **Submitting Pull Requests:** Once you've completed your changes, submit a pull request. We'll review it with care and provide feedback if necessary.
 
-  - Learning and Growing: Remember, we're all here to learn and grow together. Don't hesitate to reach out if you need assistance or guidance along the way.
+  - **Learning and Growing:** Remember, we're all here to learn and grow together. Don't hesitate to reach out if you need assistance or guidance along the way.
 
-Thank you for being a part of our community and for your valuable contributions! Together, we can make amazing things happen. 🌟
 
 
 
@@ -117,7 +117,13 @@ git push origin <Your-branch-name>
 Navigate to the original fork of this repository on your profile and click on the branch you had committed to.
 Then click on Contribute to create a Pull Request i.e create a PR on Github. (Don't just hit the create a pull request button, you must write a PR message to clarify why and what are you contributing)
 
-#### In case of merge conflict fetch and merge from the remote repository.
+## In case of merge conflict fetch and merge from the remote repository.
+
+If you encounter a merge conflict while working on your branch, you can resolve it by fetching and merging changes from the remote repository. Here's how you can do it:
+
+- [Resolving a merge conflict on GitHub](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-on-github)
+- [Fetching changes from a remote repository](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/fetching-changes-from-a-remote-repository)
+- [Merging changes from a remote repository](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request)
 
 ## Are you a beginner in using Github?
 
@@ -129,6 +135,8 @@ You can refer to the following articles on the basics of Git and Github and also
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 - [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)
 
+
+Thank you for being a part of our community and for your valuable contributions! Together, we can make amazing things happen. 🌟
 
 ## Contact us
 
