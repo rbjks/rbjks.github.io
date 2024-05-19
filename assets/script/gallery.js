@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const gallery = document.getElementById('gallery');
   
     // Fetch JSON data
-    fetch('assets/images.json')
+    fetch('assets/images/images.json')
       .then((response) => response.json())
       .then((data) => {
         // Iterate through each image in the JSON

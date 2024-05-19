@@ -4,6 +4,7 @@ var prefLanguage = 'en';
 var translateElements = document.querySelectorAll('.translate');
 var htmlParent = document.querySelector('html');
 var navbarlist = document.querySelector('#navbar ul.mobileNav');
+var hamburger=document.querySelector(".hamburger")
 
 //var englishElements = document.querySelectorAll('.translate')
 //var hindiElements = document.querySelectorAll('[lang = hi]')
@@ -50,8 +51,10 @@ function swap(el) {
 function toggleMobileNav() {
   if (navbarlist.className === 'mobileNav') {
     navbarlist.className += ' mobileVisible';
+    hamburger.style.position="fixed"
   } else {
     navbarlist.className = 'mobileNav';
+    hamburger.style.position="absolute"
   }
 }
 
