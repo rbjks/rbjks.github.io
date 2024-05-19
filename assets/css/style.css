@@ -566,7 +566,9 @@ footer {
 
 .about--contact{
   display: flex;
+  justify-content: start;
   gap: 12px;
+  padding-right: 323px;
   margin-left: 5px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
@@ -575,7 +577,9 @@ footer {
 
 .about--mail{
   display: flex;
+  justify-content: start;
   gap: 12px;
+  padding-right: 400px;
   margin-left: 5px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
@@ -629,6 +633,7 @@ footer {
     word-break: break-all;
     padding: 40px 10px;
     gap: 40px;
+    width: 98%;
   }
 
   .footer .flex-col {
@@ -651,6 +656,28 @@ footer {
     display: block;
     margin-right: 15px;
     color: white;
+  }
+
+  .about--contact{
+    display: flex;
+    justify-content: start;
+    gap: 12px;
+    padding-right: 0px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+  
+  .about--mail{
+    display: flex;
+    justify-content: start;
+    gap: 12px;
+    padding-right: 0px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
   }
 
   nav ul {
@@ -701,5 +728,17 @@ footer {
   
   #navbar .mobileNav li a:active {
     color: #fff;
+  }
+}
+
+@media (max-width:644px) {
+  footer { 
+    display: flex;
+    justify-content: space-around;
+    background-color: #22b9a8;
+    padding: 1rem 0;
+    font-weight: 600;
+    width: 100%;
+    padding: 30px 0px;
   }
 }
