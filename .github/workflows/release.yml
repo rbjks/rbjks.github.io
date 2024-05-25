@@ -1,0 +1,33 @@
+name: Create Release
+
+on:
+  pull_request:
+    types: [closed]
+
+
+jobs:
+  create-release-tags:
+    if: github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'deployment'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Extract version tag
+      id: extract_version
+      run: |
+        output=$(python extract_tags.py "${{ github.event.pull_request.title }}")
+        echo "::set-output name=tag::$output"
+        
+    - name: Create release
+      id: create_release
+      uses: ncipollo/release-action@v1
+      with:
+        tag: ${{ steps.extract_version.outputs.tag }}
+        name: Release v${{ steps.extract_version.outputs.tag }}
+        bodyFile: ./release.md
+    - name: Set outputs
+      run: echo "release_id=${{ steps.create_release.outputs.id }}" >> $GITHUB_ENV
