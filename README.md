@@ -2,7 +2,7 @@
 
 [![Facebook Badge](https://img.shields.io/badge/Facebook-Profile-blue?style=flat&logo=facebook&link=https%3A%2F%2Fwww.facebook.com%2Fakil.bakhshi%2F)](https://www.facebook.com/akil.bakhshi/)
 [![Twitter Badge](https://img.shields.io/badge/Twitter-Profile-blue?style=flat&logo=twitter&link=https%3A%2F%2Ftwitter.com%2Fa_bsays)](https://twitter.com/a_bsays)
-[![RepoRater](https://repo-rater.eddiehub.io/api/badge?owner=EddieHubCommunity&name=RepoRater)](https://repo-rater.eddiehub.io/rate?owner=rbjks&name=rbjks.github.io)
+[![RepoRater](https://repo-rater.eddiehub.io/api/badge?owner=rbjks&name=rbjks.github.io)](https://repo-rater.eddiehub.io/rate?owner=rbjks&name=rbjks.github.io)
 
 
 
