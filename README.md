@@ -5,8 +5,6 @@
 [![RepoRater](https://repo-rater.eddiehub.io/api/badge?owner=rbjks&name=rbjks.github.io)](https://repo-rater.eddiehub.io/rate?owner=rbjks&name=rbjks.github.io)
 
 
-
-
 # [RBJKS NGO](https://rbjks.github.io/index.html)
 
 Welcome to the RBJKS (Ranjeet Bakhshi Jan Kalyan Sabha) NGO Project! Our mission is to address local community issues in Nurpur, Himachal Pradesh, India, through organic crowdfunding initiatives.
