@@ -519,6 +519,9 @@ footer {
 .about img {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.about p img {
   padding-right: 5px;
 }
 
@@ -635,4 +638,11 @@ footer {
   #navbar .mobileNav li a:active {
     color: #fff;
   }
+}
+
+@media (max-width: 510px) {
+  .about--address {
+    word-break: break-word;
+  }
+
 }
