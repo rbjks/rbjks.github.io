@@ -43,12 +43,25 @@ body {
   border-radius: 10px;
   text-decoration: none;
 }
-
+.special-button {
+  display: none;
+}
 @media (max-width: 768px) {
   .contact-parent div {
     flex: 1 1 80%; /* Forces divs to stack on top of each other */
   }
   .contact-parent {
     flex-wrap: wrap;
+  }
+  .special-button {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    align-items: center;
+  }
+  .special-button a {
+    color: #fff;
+    text-decoration: none;
   }
 }
