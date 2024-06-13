@@ -638,6 +638,17 @@ footer {
   #navbar .mobileNav li a:active {
     color: #fff;
   }
+  .special-button {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    align-items: center;
+  }
+  .special-button a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
 @media (max-width: 510px) {

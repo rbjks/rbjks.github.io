@@ -51,4 +51,16 @@ body {
   .contact-parent {
     flex-wrap: wrap;
   }
+  .special-button {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    align-items: center;
+  }
+  .special-button a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
+
