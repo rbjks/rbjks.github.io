@@ -14,8 +14,8 @@
 .twitter-activities * {
   margin: auto;
 }
-.special-button{
-  display: block;
+.special-button {
+  display: none;
 }
 @media (max-width: 768px) {
   .special-button {

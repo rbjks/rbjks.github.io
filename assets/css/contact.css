@@ -43,8 +43,8 @@ body {
   border-radius: 10px;
   text-decoration: none;
 }
-.special-button{
-  display: block;
+.special-button {
+  display: none;
 }
 @media (max-width: 768px) {
   .contact-parent div {
@@ -65,4 +65,3 @@ body {
     text-decoration: none;
   }
 }
-

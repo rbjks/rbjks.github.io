@@ -542,8 +542,8 @@ footer {
   height: 1.5rem;
   width: 1.5rem;
 }
-.special-button{
-  display: block;
+.special-button {
+  display: none;
 }
 
 /* Media queries */
@@ -658,5 +658,4 @@ footer {
   .about--address {
     word-break: break-word;
   }
-
 }
