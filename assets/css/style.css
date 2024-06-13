@@ -542,6 +542,9 @@ footer {
   height: 1.5rem;
   width: 1.5rem;
 }
+.special-button{
+  display: block;
+}
 
 /* Media queries */
 @media (max-width: 768px) {

@@ -43,7 +43,9 @@ body {
   border-radius: 10px;
   text-decoration: none;
 }
-
+.special-button{
+  display: block;
+}
 @media (max-width: 768px) {
   .contact-parent div {
     flex: 1 1 80%; /* Forces divs to stack on top of each other */
