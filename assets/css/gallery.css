@@ -30,3 +30,16 @@
   font-size: 14px;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .special-button {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    align-items: center;
+  }
+  .special-button a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
