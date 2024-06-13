@@ -1,7 +1,7 @@
 name: 💡 General Feature Request
 description: Have a new idea/feature for rbjks? Let us know...
-title: "[FEATURE]: <description>"
-labels: ["enhancement"]
+title: '[FEATURE]: <description>'
+labels: ['enhancement']
 body:
   - type: checkboxes
     id: duplicates
@@ -37,8 +37,8 @@ body:
       label: Do you want to work on this issue?
       multiple: false
       options:
-        - "No"
-        - "Yes"
+        - 'No'
+        - 'Yes'
       default: 0
     validations:
       required: false
@@ -49,4 +49,3 @@ body:
       description: For example reference any existing code
     validations:
       required: false
-  

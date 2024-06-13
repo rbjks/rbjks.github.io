@@ -8,6 +8,4 @@ tasks:
   - name: Install npm dependencies
     init: npm install
   - name: Serve
-    command:
-      python -m http.server 5000
-      
+    command: python -m http.server 5000

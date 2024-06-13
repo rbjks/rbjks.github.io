@@ -4,7 +4,6 @@
 [![Twitter Badge](https://img.shields.io/badge/Twitter-Profile-blue?style=flat&logo=twitter&link=https%3A%2F%2Ftwitter.com%2Fa_bsays)](https://twitter.com/a_bsays)
 [![RepoRater](https://repo-rater.eddiehub.io/api/badge?owner=rbjks&name=rbjks.github.io)](https://repo-rater.eddiehub.io/rate?owner=rbjks&name=rbjks.github.io)
 
-
 # [RBJKS NGO](https://rbjks.github.io/index.html)
 
 Welcome to the RBJKS (Ranjeet Bakhshi Jan Kalyan Sabha) NGO Project! Our mission is to address local community issues in Nurpur, Himachal Pradesh, India, through organic crowdfunding initiatives.
@@ -30,32 +29,33 @@ Our NGO is actively involved in various initiatives and crowdfunding campaigns, 
 
 We're absolutely thrilled that you're interested in joining our project. Below, you'll find straightforward guidelines to ensure your contribution journey is as smooth as possible:
 
-  - **Get Involved:** Dive right in! Look through our list of issues and find one that sparks your interest. Feel free to ask questions or seek clarification if needed.
+- **Get Involved:** Dive right in! Look through our list of issues and find one that sparks your interest. Feel free to ask questions or seek clarification if needed.
 
-  - **Claiming Issues:** Once you've found an issue you'd like to tackle, leave a comment to claim it. Our friendly team will then assign it to you.
+- **Claiming Issues:** Once you've found an issue you'd like to tackle, leave a comment to claim it. Our friendly team will then assign it to you.
 
-  - **First-Come, First-Served:** We operate on a first-come, first-served basis. Don't worry if someone else is already working on an issue; there's always room for collaboration!
+- **First-Come, First-Served:** We operate on a first-come, first-served basis. Don't worry if someone else is already working on an issue; there's always room for collaboration!
 
-  - **Creating Issues:** Can't find an issue that matches what you'd like to work on? No problem! Open a new issue and describe your proposal. We'll review it and get back to you.
+- **Creating Issues:** Can't find an issue that matches what you'd like to work on? No problem! Open a new issue and describe your proposal. We'll review it and get back to you.
 
-  - **Respecting Assignments:** Please avoid working on issues that are already assigned to someone else. Let's ensure everyone has the opportunity to contribute.
+- **Respecting Assignments:** Please avoid working on issues that are already assigned to someone else. Let's ensure everyone has the opportunity to contribute.
 
-  - **Submitting Pull Requests:** Once you've completed your changes, submit a pull request. We'll review it with care and provide feedback if necessary.
+- **Submitting Pull Requests:** Once you've completed your changes, submit a pull request. We'll review it with care and provide feedback if necessary.
 
-  - **Learning and Growing:** Remember, we're all here to learn and grow together. Don't hesitate to reach out if you need assistance or guidance along the way.
+- **Learning and Growing:** Remember, we're all here to learn and grow together. Don't hesitate to reach out if you need assistance or guidance along the way.
 
 ## Preferred Colors
 
 - **Emerald** (#22B9A8)
 
   ![Emerald](https://user-images.githubusercontent.com/115361239/220578047-1ed3c681-0282-4b1e-85bd-66e86b1344bd.png)
+
 - **Deep Saffron** (#FF9933)
 
   ![Deep Saffron](https://user-images.githubusercontent.com/115361239/220579735-fb87b37d-67f4-406c-8188-2d42f29f9847.png)
+
 - **Desert Sand** (#EDC9AF)
 
   ![Desert Sand](https://user-images.githubusercontent.com/115361239/220578344-261f5716-3908-427b-9b17-a5e3215a18c6.png)
-
 
 ## ▶️ Steps for contributing :
 
@@ -145,11 +145,10 @@ You can refer to the following articles on the basics of Git and Github and also
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 - [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)
 
-
 Thank you for being a part of our community and for your valuable contributions! Together, we can make amazing things happen. 🌟
 
 ## Contact us
 
-  - **Email**: RBJKS.info@gmail.com
-  - **GitHub:** [RBJKS GitHub](https://github.com/rbjks)
-  - **Address:** PO: Jassur, Tehsil - Nurpur, District - Kangra, HP, 176201.
+- **Email**: RBJKS.info@gmail.com
+- **GitHub:** [RBJKS GitHub](https://github.com/rbjks)
+- **Address:** PO: Jassur, Tehsil - Nurpur, District - Kangra, HP, 176201.
